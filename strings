@@ -1,0 +1,376 @@
+Uma string composta de caracteres amplos é uma string.
+Um subtexto é uma string.
+Um recipient é uma string.
+Uma message é uma string.
+Uma palavra é um subtexto. \ não confundir com word
+
+Um conjunto de texto é uma coisa com uma string.
+
+Um nome é uma string.
+O texto de espaço é uma string igual a " ".
+
+Etapas para que se mova um percorredor (catálogo dicionário léxico rules):
+  Skip algum tipo de leading noise no segmento final deste percorredor.
+  Posicione o segmento inicial deste percorredor sobre o segmento final deste percorredor.
+  Comece. [a executar o código abaixo]
+    Se o segmento final deste percorredor estiver em branco, cancele.
+    Avance o percorredor.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor for irrelevante, cancele.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se mova um percorredor (quoted string rules):
+  Avance o percorredor.
+  Se o segmento final deste percorredor estiver em branco, cancele.
+  Se o conteúdo deste caractere inicial deste segmento final deste percorredor não for as aspas duplas, recomece.
+  Se o caractere inicial deste segmento final deste percorredor for o caractere final deste segmento final deste percorredor, avance o percorredor; saia.
+  Avance o percorredor.
+  Se o conteúdo deste caractere inicial deste segmento final deste percorredor não for as aspas duplas, cancele.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se mova um percorredor (spell checking rules):
+  Skip algum tipo de non-alfanumérico pedaços no segmento final deste percorredor. \ pula o #
+  Posicione o segmento inicial deste percorredor sobre o segmento final deste percorredor.
+  Comece. [a executar o código abaixo]
+    Se o segmento final deste percorredor estiver em branco, cancele.
+    Avance o percorredor.
+    Se o segmento final deste percorredor está sobre alguma espécie de contração, avance o percorredor; recomece.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor não for alfanumérico, cancele.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se mova um percorredor (caixa de texto file rules):
+  Posicione o segmento inicial deste percorredor sobre o segmento final deste percorredor.
+  Comece. [a executar o código abaixo]
+    Se o segmento final deste percorredor estiver em branco, cancele.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor for o retorno de carro, avance o percorredor; pare.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor for a quebra de linha, avance o percorredor; saia. 
+  \ *Rotina nova criada pelo Dahn para new to handle lines terminated por just linefeed
+    Avance o percorredor.
+  Recomece. [percorra novamente o código acima]
+  Se o segmento final deste percorredor estiver em branco, cancele.
+  Se o conteúdo deste caractere inicial deste segmento final deste percorredor for a quebra de linha, adicione 1 para o caractere inicial deste segmento final deste percorredor.
+
+Etapas para que se mova um percorredor (word wrapping rules):
+  Posicione o segmento inicial deste percorredor sobre o segmento final deste percorredor.
+  Se o segmento final deste percorredor estiver em branco, cancele.
+  Se o conteúdo deste caractere inicial deste segmento final deste percorredor for o retorno de carro, avance o percorredor; saia.
+  Comece. [a executar o código abaixo]
+    Se o segmento final deste percorredor estiver em branco, cancele.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor for o retorno de carro, cancele.
+    Se o segmento inicial deste percorredor estiver em branco, avance o percorredor; recomece.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor for like o conteúdo deste caractere final deste segmento inicial deste percorredor, 
+      avance o percorredor; recomece.
+
+Etapas para que se mova um percorredor usando uma caixa (word wrapping rules):
+  Skip algum tipo de leading quebra de linha no segmento final deste percorredor.
+  Posicione o segmento inicial deste percorredor sobre o segmento final deste percorredor.
+  Se o segmento final deste percorredor estiver em branco, cancele.
+  Lance um segundo percorredor sobre o percorredor.
+  Comece. [a executar o código abaixo]
+    Se o segmento final deste percorredor estiver em branco, cancele.
+    Mova o segundo percorredor (word wrapping rules).
+    Se o segmento inicial deste segundo percorredor estiver em branco, cancele.
+    Se o conteúdo deste caractere inicial deste segmento inicial deste segundo percorredor for o retorno de carro, avance o percorredor; saia.
+    Se o conteúdo deste caractere inicial deste segmento inicial deste segundo percorredor for whitespace, avance o percorredor pelo quantidade de caracteres deste segmento inicial deste segundo percorredor; recomece.
+    Se o segmento inicial deste percorredor estiver em branco, avance o percorredor pelo quantidade de caracteres deste segmento inicial deste segundo percorredor; recomece.
+    Se o segmento inicial deste percorredor junto com o segmento inicial deste segundo percorredor forem wider do que a caixa, cancele.
+    Avance o percorredor pelo quantidade de caracteres deste segmento inicial deste segundo percorredor.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se mova um percorredor usando um separator pedaço:
+  Posicione o segmento inicial deste percorredor sobre o segmento final deste percorredor.
+  Comece. [a executar o código abaixo]
+    Se o segmento final deste percorredor estiver em branco, cancele.
+    Se o conteúdo deste caractere inicial deste segmento final deste percorredor for o separator pedaço, adicione 1 para o caractere inicial deste segmento final deste percorredor; saia.
+    Avance o percorredor.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se escolha aleatoriamente uma letra of o alfabeto:
+  \ atribua letra A contexto? ***
+  Escolha aleatoriamente um número entre 65 e 90.
+  Atribua o número à letra.
+
+Etapas para que se atribua um percorredor para um segundo percorredor:
+  Copie pedaços desde o endereçamento deste percorredor para o endereçamento deste segundo percorredor pela magnitude deste percorredor.
+
+Etapas para que se atribua um pedaço para uma string:
+  Atribua 1 a uma quantidade de caracteres.
+  Reassign o caractere inicial desta string usando a quantidade de caracteres.
+  Atribua o pedaço ao conteúdo deste caractere inicial desta string.
+  Atribua o caractere inicial desta string ao caractere final desta string.
+
+Etapas para que se atribua uma string para uma segunda string:
+  Atribua a quantidade de caracteres desta string a uma quantidade de caracteres armazenados.
+  Assign um endereço de memória usando a quantidade de caracteres armazenados.
+  Copie pedaços desde o caractere inicial desta string para o endereço de memória pelo quantidade de caracteres armazenados.
+  Unassign o caractere inicial desta segunda string.
+  Atribua o endereço de memória ao caractere inicial desta segunda string.
+  Atribua o caractere inicial desta segunda string mais a quantidade de caracteres armazenados menos 1 ao caractere final desta segunda string.
+
+Etapas para que se remove aspas de uma string:
+  Lance um subtexto sobre a string.
+  Se o subtexto estiver em branco, pare.
+  Se o conteúdo deste caractere inicial deste subtexto não for as aspas duplas, cancele.
+  Adicione 1 para o caractere inicial deste subtexto.
+  Comece. [a executar o código abaixo]
+    Se o subtexto estiver em branco, pare.
+    Se o caractere inicial deste subtexto é o caractere final deste subtexto, pare.
+    Posponha o conteúdo deste caractere inicial deste subtexto para uma segunda string.
+    Se o conteúdo deste caractere inicial deste subtexto for as aspas duplas, adicione 1 para o caractere inicial deste subtexto.
+    Adicione 1 para o caractere inicial deste subtexto.
+  Recomece. [percorra novamente o código acima]
+  Atribua a segunda string à string.
+
+Etapas para que se uppercase qualquer trecho selecionado em uma caixa de texto:
+  Se a caixa de texto for inexistente, cancele.
+  Comece. [a executar o código abaixo]
+    Obtenha uma linha de texto desde as linhas des textos desta caixa de texto.
+    Se a linha de texto for inexistente, cancele.
+    Se a linha de texto of a caixa de texto não estiver selecionado, recomece.
+    Lance um subtexto sobre qualquer trecho selecionado na linha de texto of a caixa de texto.
+    Uppercase o subtexto.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se uppercase um pedaço:
+  Translate o pedaço using o tabela de caracteres maiúsculos ascii .
+
+Etapas para que se anteponha um pedaço para uma string:
+  Atribua a quantidade de caracteres desta string a uma quantidade de caracteres armazenados.
+  Reassign o caractere inicial desta string usando a quantidade de caracteres desta string mais 1.
+  Copie pedaços desde o caractere inicial desta string para o caractere inicial desta string mais 1 pelo quantidade de caracteres armazenados.
+  Atribua o caractere inicial desta string mais a quantidade de caracteres armazenados ao caractere final desta string.
+  Atribua o pedaço ao conteúdo deste caractere inicial desta string.
+
+Etapas para que se anteponha uma string para uma segunda string:
+  Atribua a quantidade de caracteres desta segunda string mais a quantidade de caracteres desta string a uma quantidade de caracteres agrupados.
+  Reassign um endereço de memória usando a quantidade de caracteres agrupados.
+  Atribua o endereço de memória ao caractere inicial desse subtexto.
+  Copie pedaços desde o caractere inicial desta string para o caractere inicial deste subtexto pelo quantidade de caracteres desta string.
+  Adicione a quantidade de caracteres desta string para o caractere inicial deste subtexto.
+  Copie pedaços desde o caractere inicial desta segunda string para o caractere inicial deste subtexto pelo quantidade de caracteres desta segunda string.
+  Unassign o caractere inicial desta segunda string. \ para que se esvazie extra allocates e copies
+  Atribua o endereço de memória ao caractere inicial desta segunda string.
+  Atribua o caractere inicial desta segunda string mais a quantidade de caracteres agrupados menos 1 ao caractere final desta segunda string.
+
+Etapas para que se uppercase o character depois de um finger e atribua it para uma string:
+  Se o finger for inexistente, cancele.
+  Atribua o conteúdo deste finger à string.
+  Uppercase a string.
+
+Etapas para que se uppercase uma string:
+  Lance um subtexto sobre a string.
+  Comece. [a executar o código abaixo]
+    Se o subtexto estiver em branco, cancele.
+    Uppercase o conteúdo deste caractere inicial deste subtexto.
+    Adicione 1 para o caractere inicial deste subtexto.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se uppercase uma caixa de texto:
+  Se a caixa de texto for inexistente, cancele.
+  Comece. [a executar o código abaixo]
+    Obtenha uma linha de texto desde as linhas des textos desta caixa de texto.
+    Se a linha de texto for inexistente, pare.
+    Uppercase a string deste linha de texto.
+  Recomece. [percorra novamente o código acima]
+  Wrap a caixa de texto.
+
+Etapas para que se escreva uma string;
+Etapas para que se pinte uma string:
+  Isole a string.
+  Comece. [a executar o código abaixo]
+  Se a string estiver em branco, cancele.
+    Obtenha um pedaço desde a string.
+    Pinte o pedaço.
+    Se a string não estiver em branco, providencie espaçamento adequado entre caracteres.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se escreva uma string around um center localização sob um raio;
+Etapas para que se escreva uma string usando um center localização e um raio;
+Etapas para que se pinte uma string around um center localização sob um raio;
+Etapas para que se pinte uma string usando um center localização e um raio:
+  Isole a string.
+  Atribua 1 e a quantidade de caracteres desta string a uma fração.
+  Comece. [a executar o código abaixo]
+    Se a string estiver em branco, cancele.
+    Obtenha um pedaço desde a string.
+    Start sob o center localização.
+    Mova o raio.
+    Pinte o pedaço.
+    Vire a fração.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se escreva uma string sob uma localização com uma cor:
+\Etapas para que se pinte uma string sob uma localização com uma cor:
+  Start sob a localização.
+  Atribua a cor à cor deste contexto.
+  Pinte a string.
+
+Etapas para que se escreva uma string sobre um console:
+  Se o console for inexistente, cancele.
+  Insira a string ao caixa de texto deste console.
+  Insira o retorno de carro ao caixa de texto deste console.
+  Wrap a caixa de texto deste console.
+  Role a caixa de texto deste console para o cursor de texto.
+  Mostre o console.
+
+Etapas para que se escreva uma string para um console sem passar pra próxima linha;
+Etapas para que se escreva uma string sobre um console sem passar pra próxima linha:
+  Se o console for inexistente, cancele.
+  Insira a string ao caixa de texto deste console.
+  Wrap a caixa de texto deste console.
+  Role a caixa de texto deste console para o cursor de texto.
+  Mostre o console.
+
+Etapas para que se escreva uma string em uma caixa:
+\Etapas para que se pinte uma string em uma caixa:
+  Pinte a string na caixa com a cor deste contexto.
+
+Etapas para que se escreva uma string em uma caixa com uma cor:
+\Etapas para que se pinte uma string em uma caixa com uma cor:
+  Atribua a cor à cor deste contexto.
+  Atribua o canto inferior esquerdo desta caixa à localização deste contexto.
+  Atribua a altura desta caixa dividido por 2 à tamanho da letra deste contexto.
+  \Atribua a altura desta caixa à tamanho da letra deste contexto.
+  Vire para cima.
+  Mova a altura desta caixa dividido por 4. \ was 4 e still é now! ***
+  Pinte a string.
+
+Etapas para que se escreva uma string no middle of uma caixa;
+Etapas para que se pinte uma string no middle of uma caixa:
+  Atribua a tamanho da letra deste contexto dividido por 4 a um tamanho do quadrado. \ was 4 ***
+  \ caracteres são two squares wide mais one square of intercharacter spacing. no spacing sob o end.
+  Atribua a quantidade de caracteres desta string times o tamanho do quadrado times 3 menos o tamanho do quadrado a uma largura.
+  Divida a largura por 2.
+  Start no middle of a caixa.
+  Mova para baixo a tamanho da letra deste contexto dividido por 2. \ was 2 ***
+  Mova a largura para a esquerda.
+  Vire para cima.
+  Pinte a string.
+
+Etapas para que se escreva uma string no middle of a tela:
+  Pinte a string no middle of a caixa desta tela.
+  Atualize o tela.
+
+Etapas para que se escreva uma string sobre um terminal:
+  Se o terminal for inexistente, cancele.
+  Adicione um quora para o terminal.
+  Atribua a string à string deste quora.
+  Atribua a output cor deste terminal à cor deste quora.
+  Mostre o terminal.
+
+Etapas para que se pinte uma string while turning uma fração:
+  Isole a string.
+  Comece. [a executar o código abaixo]
+    Se a string estiver em branco, cancele.
+    Obtenha um pedaço desde a string.
+    Pinte o pedaço.
+    Vire a fração.
+    Se a string não estiver em branco, providencie espaçamento adequado entre caracteres.
+  Recomece. [percorra novamente o código acima]
+
+Etapas para que se escreva uma string com uma cor;
+Etapas para que se pinte uma string com uma cor:
+  Atribua a cor à cor deste contexto.
+  Pinte a string.
+
+Etapas para que se escreva uma string com uma cor sob o base of uma caixa;
+Etapas para que se pinte uma string com uma cor sob o base of uma caixa:
+  Atribua a tamanho da letra deste contexto dividido por 4 a um tamanho do quadrado. \ ***
+  \ caracteres são two squares wide mais one square of intercharacter spacing. no spacing sob o end.
+  Atribua a quantidade de caracteres desta string times o tamanho do quadrado times 3 menos o tamanho do quadrado a uma largura.
+  Divida a largura por 2.
+  Start no middle of o base of a caixa.
+  Mova para cima a tamanho da letra deste contexto times 2. \ was sem o times 2 ***
+  Mova a largura para a esquerda.
+  Vire para cima.
+  Pinte a string com a cor.
+
+Etapas para que se escreva uma string com uma cor sob o topo of uma caixa;
+Etapas para que se pinte uma string com uma cor sob o topo of uma caixa:
+  Atribua a tamanho da letra deste contexto dividido por 4 a um tamanho do quadrado. \ ***
+  \ caracteres são two squares wide mais one square of intercharacter spacing. no spacing sob o end.
+  Atribua a quantidade de caracteres desta string times o tamanho do quadrado times 3 menos o tamanho do quadrado a uma largura.
+  Divida a largura por 2.
+  Start no middle of o topo of a caixa.
+  Mova para baixo a tamanho da letra deste contexto times 4. \ was times 2 ***
+  Mova a largura para a esquerda.
+  Vire para cima.
+  Pinte a string com a cor.
+
+Etapas para que se escreva uma string com uma cor no middle of uma caixa;
+Etapas para que se pinte uma string com uma cor no middle of uma caixa:
+  Atribua a tamanho da letra deste contexto dividido por 4 a um tamanho do quadrado. \ was 4 ***
+  \ caracteres são two squares wide mais one square of intercharacter spacing. no spacing sob o end.
+  Atribua a quantidade de caracteres desta string times o tamanho do quadrado times 3 menos o tamanho do quadrado a uma largura.
+  Divida a largura por 2.
+  Start no middle of a caixa.
+  Mova para baixo a tamanho da letra deste contexto dividido por 2. \ was 2 ***
+  Mova a largura para a esquerda.
+  Vire para cima.
+  Pinte a string com a cor.
+
+Etapas para que se escreva uma string com uma cor um raio away desde um center localização;
+Etapas para que se escreva uma string com uma cor um raio around um center localização;
+\Etapas para que se escreva uma string com uma cor aproximadamente um raio desde um center localização;
+Etapas para que se escreva uma string com uma cor um raio desde um center localização;
+Etapas para que se pinte uma string com uma cor um raio away desde um center localização;
+Etapas para que se pinte uma string com uma cor um raio around um center localização;
+Etapas para que se pinte uma string com uma cor aproximadamente um raio desde um center localização;
+Etapas para que se pinte uma string com uma cor um raio desde um center localização:
+  Atribua a cor à cor deste contexto.
+  Pinte a string usando o center localização e o raio.
+
+Etapas para que se escreva uma string com uma fonte e um size e uma cor e uma localização:
+  Atribua o size à altura desta fonte.
+  Atribua a largura desta string a uma largura.
+  Atribua a localização e a localização a uma caixa.
+  Subtraia a largura dividido por 2 desde a coordenada X do canto superior esquerdo desta caixa.
+  Adicione a largura dividido por 2 para a coordenada X do canto inferior direito desta caixa.
+  Subtraia o size dividido por 2 desde a coordenada Y do canto superior esquerdo desta caixa.
+  Adicione o size dividido por 2 para a coordenada Y do canto inferior direito desta caixa.
+  Pinte a string na caixa com a cor e a fonte e "center".
+  Atualize a tela.
+
+Etapas para que se escreva uma string com uma cor uns twips para baixo desde o topo of uma caixa;
+Etapas para que se escreva uma string com uma cor uns twips para baixo desde o topo center of uma caixa;
+Etapas para que se pinte uma string com uma cor uns twips para baixo desde o topo of uma caixa;
+Etapas para que se pinte uma string com uma cor uns twips para baixo desde o topo center of uma caixa:
+  Atribua a tamanho da letra deste contexto dividido por 4 a um tamanho do quadrado. \ was 4 ***
+  \ caracteres são two squares wide mais one square of intercharacter spacing. no spacing sob o end.
+  Atribua a quantidade de caracteres desta string times o tamanho do quadrado times 3 menos o tamanho do quadrado a uma largura.
+  Divida a largura por 2.
+  Start no middle of o topo of a caixa.
+  Mova para baixo os twips.
+  Mova a largura para a esquerda.
+  Vire para cima.
+  Pinte a string com a cor.
+
+Etapas para que se zero preencha uma string usando uma contagem:
+  Se a quantidade de caracteres desta string for maior do que ou igual à contagem, cancele.
+  Anteponha o número zero para a string.
+  Recomece. [percorra novamente o código acima]
+  
+
+Etapas para que se remove algum tipo de trailing barra invertida desde uma string:
+  Se a string estiver em branco, cancele.
+  Se o conteúdo deste caractere final desta string não for a barra invertida, cancele.
+  Remove o last pedaço desde a string.
+
+Etapas para que se remove algum tipo de trailing quebra de linha desde uma string:
+  Se a string estiver em branco, cancele.
+  Se o conteúdo deste caractere final desta string não for a quebra de linha, cancele.
+  Remove o last pedaço desde a string.
+
+Etapas para que se remove algum tipo de trailing retorno de carro desde uma string:
+  Se a string estiver em branco, cancele.
+  Se o conteúdo deste caractere final desta string não for o retorno de carro, cancele.
+  Remove o last pedaço desde a string.
+
+Etapas para que se remove pedaços de uma string usando um subtexto:
+  Se a string estiver em branco, cancele.
+  Se o subtexto estiver em branco, cancele.
+  Atribua o caractere final desta string menos o caractere final deste subtexto a uma quantidade de caracteres.
+  Atribua o caractere final deste subtexto mais 1 a um endereço de memória.
+  Copie pedaços desde o endereço de memória para o caractere inicial deste subtexto pelo quantidade de caracteres.
+  Atribua a quantidade de caracteres desta string menos a quantidade de caracteres deste subtexto a um new quantidade de caracteres.
+  Reassign o caractere inicial desta string usando o new quantidade de caracteres.
+  Atribua o caractere inicial desta string mais o new quantidade de caracteres menos 1 ao caractere final desta string.
