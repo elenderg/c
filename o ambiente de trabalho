@@ -17,14 +17,13 @@ Etapas para que se adicione uma cor e um conteúdo do texto para um menu:
   Atribua a cor à cor deste command.
 
 Etapas para que se adicione um nome e um conteúdo do texto para um menu:
-  \Escreva "adicione um nome e um conteúdo do texto para um menu" para "c:\0\log.txt".
   Se o menu for inexistente, cancele.
   Crie um command.
   Posponha o command para os commands deste menu.
   Atribua a altura do botão do painel à largura deste command.
   Atribua o nome ao nome deste command.
   Atribua o conteúdo do texto ao conteúdo do texto deste command.
-  Atribua a cor do ambiente de trabalho à cor deste command. \ aqui muda a cor dos botões - eram brancos
+  Atribua a cor do ambiente de trabalho à cor deste command. \
   Atribua "à esquerda" ao alinhamento deste command.
 
 Etapas para que se adicione um nome e um conteúdo do texto para um submenu:
@@ -400,7 +399,7 @@ Etapas para que se pinte um botão: \específico para os botões sim/não, cancelar,
   Exponha tudo.
   Pinte a caixa arredondada deste botão com a cor branca [borda] e a cor de realce [preenchimento].
   Cubra externamente a caixa arredondada deste botão.
-  Pinte o nome deste botão na caixa arredondada deste botão usando a cor branca [cor da fonte do botão realçado] e a fonte padrão e "centro".
+  Pinte o nome deste botão na caixa arredondada deste botão usando a cor branca [cor da fonte do botão realçado] e a fonte padrão e "centralizado".
 
 Etapas para que se pinte uns botões:
   Obtenha um botão desde o botões.
