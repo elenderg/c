@@ -7821,12 +7821,12 @@ Etapas para que se insira umas coisas para umas outras coisas after um coisa:
   Insira  as coisas ao outras coisas antes de o next coisa desta coisa.
 
 Etapas para que se insira umas coisas para umas outras coisas antes de um coisa:
-  Isole o coisa.
+  Isole a coisa.
   Comece. [a executar o código abaixo]
     Atribua a first coisa destas coisas a uma segunda coisa.
     Se a segunda coisa for inexistente, cancele.
     Remove a segunda coisa desde as coisas.
-    Insira a segunda coisa ao outras coisas antes de o coisa.
+    Insira a segunda coisa ao outras coisas antes de a coisa.
   Recomece. [percorra novamente o código acima]
 
 Etapas para que se insira um vértice para um polígono after um segundo vértice:
@@ -8431,7 +8431,7 @@ Etapas para que se mova um subtexto usando um número:
 
 Etapas para que se mova uma coisa desde umas coisas para umas outras coisas:
   Se a coisa for inexistente, cancele.
-  Isole o coisa.
+  Isole a coisa.
   Remove a coisa desde as coisas.
   Posponha a coisa para a outras coisas.
 
@@ -10576,7 +10576,7 @@ Etapas para que se separe umas coisas para umas coisas anteriores e umas coisas 
     Se a contagem for 0, pare.
     Subtraia 1 desde a contagem.
     Recomece. [percorra novamente o código acima]
-    Separe  as coisas ao coisas anteriores e as coisas posteriores sob o coisa.
+    Separe  as coisas ao coisas anteriores e as coisas posteriores sob a coisa.
 
 Etapas para que se separe umas coisas para umas coisas anteriores e umas coisas posteriores sob um coisa:
   Limpe as coisas anteriores.
