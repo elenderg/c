@@ -45,7 +45,7 @@ Etapas para que se adicione potinhos de tinta para um submenu usando um conteúdo
   Adicione a cor transparente e o conteúdo do texto para o submenu.
   Atribua a largura da paleta de cores dividido por 3 ao largura deste last command destes commands deste submenu.
   Atribua "limpar" ao nome deste last command destes commands deste submenu.
-  Atribua "centro" ao alinhamento deste last command destes commands deste submenu.
+  Atribua "centralizado" ao alinhamento deste last command destes commands deste submenu.
   Adicione a cor branca e o conteúdo do texto para o submenu. \ botão que fica depois do botão limpar
   Atribua a largura da paleta de cores dividido por 3 ao largura deste last command destes commands deste submenu.
   Adicione a cor preta e o conteúdo do texto para o submenu. \ botão que fica depois do botão branco
@@ -117,7 +117,7 @@ Etapas para que se ajuste o dialog (caixa arredondada):
 Etapas para que se ajuste o dialog (caixa de texto):
   Se a caixa de texto deste dialog for inexistente, cancele.
   Ligue o detector de rolagem horizontal desta caixa de texto deste dialog.
-  Selecione cada pedaço na caixa de texto deste dialog.
+  Selecione cada byte na caixa de texto deste dialog.
   Atribua a cor do pincel deste dialog à cor do pincel desta caixa de texto deste dialog.
   Atribua a coordenada X do canto inferior direito desta caixa de alerta deste dialog ao coordenada X do canto superior esquerdo dessa caixa.
   Atribua a coordenada Y do canto superior esquerdo desta caixa de alerta deste dialog à coordenada Y do canto superior esquerdo desta caixa.
@@ -236,16 +236,16 @@ Etapas para que se crie o dialog:
 
 Etapas para que se crie um menu:
   Aloque memória para o menu.
-  Atribua a letra 'A' maiúscula a um pedaço.
+  Atribua a letra 'A' maiúscula a um byte.
   Comece. [a executar o código abaixo]
-    Se o pedaço for maior do que o Z maiúsculo, pare.
-    Atribua o pedaço a uma string.
+    Se o byte for maior do que o Z maiúsculo, pare.
+    Atribua o byte a uma string.
     Adicione a string e a string ao menu.
-    Atribua "centro" ao alinhamento deste last command destes commands deste menu.
-    Adicione 1 para o pedaço.
+    Atribua "centralizado" ao alinhamento deste last command destes commands deste menu.
+    Adicione 1 para o byte.
   Recomece. [percorra novamente o código acima]
   Adicione "*" e "*" para o menu. \ special menu
-  Atribua "centro" ao alinhamento deste last command destes commands deste menu. \ special menu
+  Atribua "centralizado" ao alinhamento deste last command destes commands deste menu. \ special menu
   Atribua o canto superior esquerdo deste display deste painel superior direito a uma localização. \ special menu
   \ ajuste o menu usando a localização e 26 times a largura do potinho de tinta. \ no special menu
   Ajuste o menu usando a localização e 27 times a largura do potinho de tinta. \ special menu
@@ -480,7 +480,7 @@ Etapas para que se realce um command:
   Cubra externamente a caixa arredondada deste command. 
   Atribua a caixa arredondada deste command a uma caixa.
   Pinte e preencha a caixa com a cor de realce.
-  Pinte o nome deste command na caixa arredondada deste command com a cor branca e a fonte deste command e "centralizado". \
+  Pinte o nome deste command na caixa arredondada deste command com a cor branca e a fonte deste command e o alinhamento deste command. \
   Aguarde por um evento.
   Desrealce o command.
 
@@ -623,9 +623,9 @@ Etapas para que se encontre um botão usando um tecla:
     Obtenha o botão desde os botões deste dialog.
     Se o botão for inexistente, cancele.
     Se o nome deste botão estiver em branco, recomece.
-    Atribua o conteúdo deste caractere inicial deste nome deste botão a um pedaço.
-    Uppercase o pedaço.
-    Se o pedaço for a tecla, cancele.
+    Atribua o conteúdo deste caractere inicial deste nome deste botão a um byte.
+    Uppercase o byte.
+    Se o byte for a tecla, cancele.
   Recomece. [percorra novamente o código acima]
 
 Etapas para que se encontre um botão usando uma localização:
@@ -678,10 +678,10 @@ Etapas para que se format uma string para fit em uma caixa usando uma fonte:
     Se a quantidade de caracteres desta string for menor do que 2, cancele.
     Obtenha uma segunda largura usando a string e o memory canvas e a fonte.
     Se a segunda largura for menor do que a largura, cancele.
-    Remove o last pedaço desde a string.
-    Remove o last pedaço desde a string.
-    Remove o last pedaço desde a string.
-    Remove o last pedaço desde a string.
+    Remove o last byte desde a string.
+    Remove o last byte desde a string.
+    Remove o last byte desde a string.
+    Remove o last byte desde a string.
     Posponha "..." para a string.
   Recomece. [percorra novamente o código acima]
 
@@ -1567,7 +1567,7 @@ Etapas para que se execute um evento usando o dialog (pressionamento de tecla - 
 
 Etapas para que se execute um evento usando o dialog (pressionamento de tecla - input):
   Se o evento for algum tipo de atalho de tecla, execute o evento usando o dialog (pressionamento de tecla - atalho de tecla); saia.
-  Se o pedaço deste evento for imprimível, execute o evento usando o dialog (pressionamento de tecla - caracteres gráficos); saia.
+  Se o byte deste evento for imprimível, execute o evento usando o dialog (pressionamento de tecla - caracteres gráficos); saia.
   Se a tecla deste evento for a tecla backspace, execute o evento usando o dialog (pressionamento de tecla - tecla backspace); saia.
   Se a tecla deste evento for a tecla Delete, execute o evento usando o dialog (pressionamento de tecla - tecla Delete); saia.
   Se a tecla deste evento for a tecla End, execute o evento usando o dialog (pressionamento de tecla - tecla End); saia.

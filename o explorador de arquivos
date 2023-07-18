@@ -295,31 +295,31 @@ Etapas para que se dump um trecho para uma segunda trecho:
   Recomece. [percorra novamente o código acima]
 
 Etapas para que se dump um subtexto of um trecho para uma segunda trecho:
-  Dump o subtexto of o trecho ao segunda trecho (endereço pedaços).
-  Dump o subtexto of o trecho ao segunda trecho (hex pedaços).
-  Dump o subtexto of o trecho ao segunda trecho (ascii pedaços).
+  Dump o subtexto of o trecho ao segunda trecho (endereço bytes).
+  Dump o subtexto of o trecho ao segunda trecho (hex bytes).
+  Dump o subtexto of o trecho ao segunda trecho (ascii bytes).
   Posponha o retorno de carro para a segunda trecho.
   Posponha a quebra de linha para a segunda trecho.
 
-Etapas para que se dump um subtexto of um trecho para uma segunda trecho (endereço pedaços):
+Etapas para que se dump um subtexto of um trecho para uma segunda trecho (endereço bytes):
   Atribua o caractere inicial deste subtexto menos o caractere inicial deste trecho a um endereço.
   Converta o endereço para uma cifra hexadecimal.
   Posponha a cifra hexadecimal para a segunda trecho.
   Posponha o caractere de espaço para a segunda trecho.
   Posponha o caractere de espaço para a segunda trecho.
 
-Etapas para que se dump um subtexto of um trecho para um segundo trecho (ascii pedaços):
+Etapas para que se dump um subtexto of um trecho para um segundo trecho (ascii bytes):
   Lance um segundo subtexto on o subtexto.
   Comece. [a executar o código abaixo]
     Se o segundo subtexto estiver em branco, pare.
-      Atribua o conteúdo deste caractere inicial deste segundo subtexto a um pedaço. 
-    Se o pedaço não for imprimível, atribua o ponto final ao pedaço.
-    Se o pedaço for o caractere de espaço, atribua o ponto final ao pedaço.
-    Posponha o pedaço para o segundo trecho.
+      Atribua o conteúdo deste caractere inicial deste segundo subtexto a um byte. 
+    Se o byte não for imprimível, atribua o ponto final ao byte.
+    Se o byte for o caractere de espaço, atribua o ponto final ao byte.
+    Posponha o byte para o segundo trecho.
     Adicione 1 para o caractere inicial deste segundo subtexto.
   Recomece. [percorra novamente o código acima]
 
-Etapas para que se dump um subtexto of um trecho para um segundo trecho (hex pedaços):
+Etapas para que se dump um subtexto of um trecho para um segundo trecho (hex bytes):
   Lance um segundo subtexto on o subtexto.
   Comece. [a executar o código abaixo]
     Se o segundo subtexto estiver em branco, pare.
@@ -817,12 +817,12 @@ Etapas para que se abra uma lista (arquivo):
   Abra a lista usando o trecho (arquivo binário).
 
 Etapas para que se abra uma lista (lista de unidades):
-  Atribua o acento grave a um pedaço.
+  Atribua o acento grave a um byte.
   Comece. [a executar o código abaixo]
-    Adicione 1 para o pedaço.
-    Se o pedaço for maior do que o z minúsculo, pare.
-    Se o pedaço não for algum tipo de unidade de disco válida, recomece.
-    Atribua o pedaço seguido de ":\" a um endereço completo.
+    Adicione 1 para o byte.
+    Se o byte for maior do que o z minúsculo, pare.
+    Se o byte não for algum tipo de unidade de disco válida, recomece.
+    Atribua o byte seguido de ":\" a um endereço completo.
     Crie um elemento usando o endereço completo.
     Posponha o elemento para os elementos desta lista.
     Atribua a lista à parent lista deste elemento.

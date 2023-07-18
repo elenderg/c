@@ -86,15 +86,15 @@ Etapas para que se determine se um trecho é caixa de texto-format:
   Lance um subtexto sobre o trecho.
   Comece. [a executar o código abaixo]
     Se o caractere inicial deste subtexto for maior do que o caractere final deste subtexto, diga sim.
-    Se o conteúdo deste caractere inicial deste subtexto não for algum tipo de caixa de texto pedaço, diga não.
+    Se o conteúdo deste caractere inicial deste subtexto não for algum tipo de caixa de texto byte, diga não.
     Adicione 1 para o caractere inicial deste subtexto.
   Recomece. [percorra novamente o código acima]
 
-Etapas para que se determine se um pedaço é algum tipo de caixa de texto pedaço:
-  Se o pedaço for imprimível, diga sim.
-  Se o pedaço for o tabulação horizontal, diga sim.
-  Se o pedaço for a quebra de linha, diga sim.
-  Se o pedaço for o retorno de carro, diga sim.
+Etapas para que se determine se um byte é algum tipo de caixa de texto byte:
+  Se o byte for imprimível, diga sim.
+  Se o byte for o tabulação horizontal, diga sim.
+  Se o byte for a quebra de linha, diga sim.
+  Se o byte for o retorno de carro, diga sim.
 [Se as condições acima não puderem ser satisfeitas, então:] Diga não.
 
 Etapas para que se determine se uma linha de texto é algum tipo de comment:
@@ -297,7 +297,7 @@ Etapas para que se execute encrypt usando um source:
 
 Etapas para que se execute um evento usando um source (finding - pressionamento de tecla - tecla backspace):
   Se o texto pesquisado estiver em branco, avise; saia.
-  Remove o last pedaço desde o texto pesquisado.
+  Remove o last byte desde o texto pesquisado.
   Encontre next usando a caixa de texto deste source e um detector.
   Se o detector não estiver ativo, avise.
   Se o texto pesquisado estiver em branco, atribua o find anchor ao cursor de texto desta caixa de texto deste source; desvencilhe-se de a caixa de texto deste source.
@@ -305,17 +305,17 @@ Etapas para que se execute um evento usando um source (finding - pressionamento 
   Mostre o ambiente de trabalho com "Buscando...".
 
 Etapas para que se execute um evento usando um source (finding - pressionamento de teclas de letras, números e demais sinais gráficos):
-  Posponha o pedaço deste evento para o texto pesquisado.
+  Posponha o byte deste evento para o texto pesquisado.
   Atribua o find anchor a um anchor.
   Atribua o anchor desta caixa de texto deste source ao find anchor.
   Encontre next usando a caixa de texto deste source e um detector.
   Atribua o anchor ao find anchor.
-  Se o detector não estiver ativo, avise; remove o last pedaço desde o texto pesquisado; saia.
+  Se o detector não estiver ativo, avise; remove o last byte desde o texto pesquisado; saia.
   Role a caixa de texto deste source para o cursor de texto e centralize-o.
   Mostre o ambiente de trabalho com "Buscando...".
 
 Etapas para que se execute um evento usando um source (finding - pressionamento de tecla):
-  Se o pedaço deste evento for imprimível, execute o evento usando o source (finding - pressionamento de teclas de letras, números e demais sinais gráficos); saia.
+  Se o byte deste evento for imprimível, execute o evento usando o source (finding - pressionamento de teclas de letras, números e demais sinais gráficos); saia.
   Se a tecla deste evento for a tecla backspace, execute o evento usando o source (finding - pressionamento de tecla - tecla backspace); saia.
   Se a tecla deste evento for a tecla Shift, cancele.
   Relinquish control.
@@ -411,7 +411,7 @@ Etapas para que se execute um evento usando um source (pressionamento de tecla -
   Mostre o ambiente de trabalho com painel de informações.
 
 Etapas para que se execute um evento usando um source (pressionamento de tecla):
-  Se o pedaço deste evento for imprimível, execute o evento usando o source (pressionamento de tecla - caracteres gráficos); saia.
+  Se o byte deste evento for imprimível, execute o evento usando o source (pressionamento de tecla - caracteres gráficos); saia.
   Se a tecla deste evento for a tecla backspace, execute o evento usando o source (pressionamento de tecla - tecla backspace); saia.
   Se a tecla deste evento for a tecla Delete, execute o evento usando o source (pressionamento de tecla - tecla Delete); saia.
   Se a tecla deste evento for a seta pra baixo, execute o evento usando o source (pressionamento de tecla - seta pra baixo); saia.
@@ -881,6 +881,6 @@ Etapas para que se uncomment algum tipo de linhas des textos selecionadas em um 
     Se a linha de texto for inexistente, cancele.
     Se a linha de texto of a caixa de texto deste source não estiver selecionado, recomece.
     Se o conteúdo deste caractere inicial desta string desta linha de texto não for a barra invertida, recomece.
-    Remove o first pedaço desde a string deste linha de texto.
+    Remove o first byte desde a string deste linha de texto.
   Recomece. [percorra novamente o código acima]
   
