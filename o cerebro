@@ -10603,6 +10603,7 @@ Uma localização é um par de números com
   Uma left sob a coordenada X e  
   Um topo sob a coordenada Y. 
 
+Um topo é uns twips.
 Um left é uns twips. \ IMPORTANTE
 
 Uma endereço de memória da localização é um endereço de memória para uma localização.
@@ -10617,8 +10618,6 @@ Etapas para que se square para cima algum tipo de seleção em uma caixa de texto:
   Se o número de linhas do cursor desta caixa de texto for menor do que ou igual à contagem de linhas desta caixa de texto, cancele.
   Atribua a contagem de linhas desta caixa de texto ao número da linha deste cursor de texto desta caixa de texto.
   Atribua a quantidade de caracteres desta string desta linha de texto ao número de coluna deste cursor de texto desta caixa de texto.
-
-
 
 Etapas para que se start anywhere em uma caixa:
   Escolha aleatoriamente a localização deste contexto na caixa.
@@ -10662,6 +10661,7 @@ Etapas para que se start sob o canto base direito of uma caixa facing west:
   Atribua o canto inferior direito desta caixa à localização deste contexto.
   Face west.
 
+Etapas para que se start sob a esquerda of um linha reta horizontal;
 Etapas para que se start sob o lado esquerdo of um linha reta horizontal:
   Atribua à localização inicial desta linha reta horizontal à localização deste contexto.
 
@@ -10807,6 +10807,7 @@ Etapas para que se start no centro of o topo of uma caixa facing west:
   Atribua a coordenada Y do canto superior esquerdo desta caixa à coordenada Y desta localização deste contexto.
   Face west.
 
+Etapas para que se start sob a direita of um linha reta horizontal;
 Etapas para que se start sob o lado direito of um linha reta horizontal:
   Atribua a localização final desta linha reta horizontal à localização deste contexto.
 
@@ -11190,7 +11191,7 @@ Um temporizador é um conjunto com
 
 Some times é um número. \ this é um fluke, I think -- see "suavize um polígono uns times"
 
-Um topo é uns twips.
+
 
 Etapas para que se trim uma string:
   Remove algum tipo de leading noise desde a string.

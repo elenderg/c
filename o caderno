@@ -975,13 +975,13 @@ Etapas para que se pinte o edge of uma página em um documento:
   \Atribua a caixa arredondada a uma caixa.
   Ajuste a caixa usando 4 pixels e 0 pixels e -48 pixels e 0 pixels. \ espaçamento do texto do índice
   Cubra somente fora de a caixa.
-  Pinte o título de índice remissivo desta página na caixa com a cor preta e a fonte padrão e "lado esquerdo".
-  Se o detector especificado desta página estiver ativo, pinte o título de índice remissivo desta página na caixa com a cor branca e a fonte padrão e "lado esquerdo".
+  Pinte o título de índice remissivo desta página na caixa com a cor preta e a fonte padrão e "à esquerda".
+  Se o detector especificado desta página estiver ativo, pinte o título de índice remissivo desta página na caixa com a cor branca e a fonte padrão e "à esquerda".
   Atribua a caixa [arredondada] a uma segunda caixa.
   Atribua a coordenada X do canto inferior direito desta segunda caixa menos 44 pixels à coordenada X do canto superior esquerdo desta segunda caixa.
   Subtraia 4 pixels desde a coordenada X do canto inferior direito desta segunda caixa.
   Cubra somente fora de a segunda caixa.
-  Pinte o número de página desta página no segunda caixa com a cor preta e a fonte padrão e "lado direito".
+  Pinte o número de página desta página no segunda caixa com a cor preta e a fonte padrão e "à direita".
 
 Etapas para que se pinte o edges of algum tipo de visível páginas em um documento:
   Se o documento for inexistente, cancele.

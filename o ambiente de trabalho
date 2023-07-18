@@ -481,7 +481,7 @@ Etapas para que se realce um command:
   Cubra externamente a caixa arredondada deste command. 
   Atribua a caixa arredondada deste command a uma caixa.
   Pinte e preencha a caixa com a cor de realce.
-  Pinte o nome deste command na caixa arredondada deste command com a cor branca e a fonte deste command e o alinhamento deste command. \
+  Pinte o nome deste command na caixa arredondada deste command com a cor branca e a fonte deste command e "centralizado". \
   Aguarde por um evento.
   Desrealce o command.
 
