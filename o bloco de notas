@@ -251,7 +251,7 @@ Etapas para que se execute verificação ortográfica usando um source:
   Atribua 1 ao find anchor.
   Encontre o next misspelling na caixa de texto deste source usando um detector.
   Se o detector não estiver ativo, avise; mostre o ambiente de trabalho com "Pronto"; saia.
-  Role a caixa de texto deste source para o cursor de texto e center it.
+  Role a caixa de texto deste source para o cursor de texto e centralize-o.
   Mostre o ambiente de trabalho com "Encontrado".
 
 Etapas para que se execute comment usando um source:
@@ -301,7 +301,7 @@ Etapas para que se execute um evento usando um source (finding - pressionamento 
   Encontre next usando a caixa de texto deste source e um detector.
   Se o detector não estiver ativo, avise.
   Se o texto pesquisado estiver em branco, atribua o find anchor ao cursor de texto desta caixa de texto deste source; desvencilhe-se de a caixa de texto deste source.
-  Role a caixa de texto deste source para o cursor de texto e center it.
+  Role a caixa de texto deste source para o cursor de texto e centralize-o.
   Mostre o ambiente de trabalho com "Buscando...".
 
 Etapas para que se execute um evento usando um source (finding - pressionamento de teclas de letras, números e demais sinais gráficos):
@@ -311,7 +311,7 @@ Etapas para que se execute um evento usando um source (finding - pressionamento 
   Encontre next usando a caixa de texto deste source e um detector.
   Atribua o anchor ao find anchor.
   Se o detector não estiver ativo, avise; remove o last pedaço desde o texto pesquisado; saia.
-  Role a caixa de texto deste source para o cursor de texto e center it.
+  Role a caixa de texto deste source para o cursor de texto e centralize-o.
   Mostre o ambiente de trabalho com "Buscando...".
 
 Etapas para que se execute um evento usando um source (finding - pressionamento de tecla):
@@ -527,7 +527,7 @@ Etapas para que se encontre novamente usando um source (verificação ortográfica)
   Atribua o cursor de texto desta caixa de texto deste source ao find anchor.
   Encontre o next misspelling na caixa de texto deste source usando um detector.
   Se o detector não estiver ativo, avise; mostre painel de informações "Pronto"; saia.
-  Role a caixa de texto deste source para o cursor de texto e center it.
+  Role a caixa de texto deste source para o cursor de texto e centralize-o.
   Mostre o ambiente de trabalho com "Encontrado".
 
 Etapas para que se encontre novamente usando um source (localização de texto):
@@ -535,7 +535,7 @@ Etapas para que se encontre novamente usando um source (localização de texto):
   Atribua o cursor de texto desta caixa de texto deste source ao find anchor.
   Encontre next usando a caixa de texto deste source e um detector.
   Se o detector não estiver ativo, avise; mostre painel de informações "Não encontrado"; saia.
-  Role a caixa de texto deste source para o cursor de texto e center it.
+  Role a caixa de texto deste source para o cursor de texto e centralize-o.
   Mostre o ambiente de trabalho com "Encontrado".
 
 Etapas para que se mude tamanho usando um source e uma altura da fonte:

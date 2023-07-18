@@ -269,7 +269,7 @@ Etapas para que se pinte um elemento em uma lista:
   Se o detector especificado deste elemento estiver ativo, atribua a cor de realce à cor de preenchimento. \ aqui muda a cor do hover da pasta selecionada
   Pinte a caixa arredondada com a cor da borda e a cor de preenchimento.
   Adicione 4 pixels para a coordenada X do canto superior esquerdo desta caixa arredondada.
-  Pinte o endereço da pasta deste elemento na caixa arredondada com a cor cinza e a fonte padrão e "alinhado à esquerda". \ muda a fonte da pastas mãe
+  Pinte o endereço da pasta deste elemento na caixa arredondada com a cor cinza e a fonte padrão e "à esquerda". \ muda a fonte da pastas mãe
   Atribua o designador deste elemento a um designador.
   Se a categoria deste elemento for "unidade de disco", obtenha um description pelo endereço completo deste elemento.
   Se a categoria deste elemento for "unidade de disco", posponha " (" junto com o description seguido de ")" para o designador.
@@ -279,8 +279,8 @@ Etapas para que se pinte um elemento em uma lista:
   \ Se a categoria deste elemento for "unidade de disco", posponha " (" junto com o nome da unidade de disco seguido de ")" para o designador.
   Obtenha uma largura usando o endereço da pasta deste elemento e o memory canvas e a fonte padrão.
   Adicione a largura para a coordenada X do canto superior esquerdo desta caixa arredondada.
-  Pinte o designador na caixa arredondada com a cor preta e a fonte padrão e "alinhado à esquerda". \ muda a fonte da pasta atual
-  Se o detector especificado deste elemento estiver ativo, pinte o designador na caixa arredondada com a cor branca e a fonte padrão e "alinhado à esquerda". 
+  Pinte o designador na caixa arredondada com a cor preta e a fonte padrão e "à esquerda". \ muda a fonte da pasta atual
+  Se o detector especificado deste elemento estiver ativo, pinte o designador na caixa arredondada com a cor branca e a fonte padrão e "à esquerda". 
 
 Etapas para que se dump um trecho para uma segunda trecho:
   Limpe a segunda trecho.

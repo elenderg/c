@@ -233,7 +233,7 @@ Etapas para que se centralize uma página (verticalmente):
 
 Etapas para que se centralize uma forma em uma caixa:
   Se a forma for inexistente, cancele.
-  Obtenha um difference entre o center desta caixa e o center desta caixa desta forma.
+  Obtenha um difference entre o centro desta caixa e o centro desta caixa desta forma.
   Mova a forma usando a difference.
 
 Etapas para que se modifique algum tipo de formas selecionadas sobre uma página usando uma altura da fonte;
@@ -1568,11 +1568,11 @@ Etapas para que se flip um forma:
   Produza o relatório de informações usando "Erro no processamento da rotina 'Etapas para que se flip um forma:' A categoria '" junto com a categoria desta forma seguido de "' não existe".
 
 Etapas para que se flip uma forma (múltiplas formas agrupadas):
-  Atribua o center desta caixa desta forma a um center localização.
+  Atribua o centro desta caixa desta forma a um centro localização.
   Comece. [a executar o código abaixo]
     Obtenha uma segunda forma desde as formas desta forma.
     Se a segunda forma for inexistente, pare.
-    Atribua a coordenada Y deste center menos a coordenada Y deste center desta caixa desta segunda forma ao número Y desse par de números.
+    Atribua a coordenada Y deste centro menos a coordenada Y deste centro desta caixa desta segunda forma ao número Y desse par de números.
     Multiplique o número Y deste par de números por 2.
     Mova a segunda forma usando o par de números.
     Flip a segunda forma.
@@ -3156,9 +3156,9 @@ Etapas para que se faça um botão de polígono usando uma forma e uma string e uma
   Se a string for "canto inferior esquerdo ", faça o botão de polígono usando o canto inferior esquerdo desta caixa desta forma; saia.
   Se a string for "canto inferior direito", faça o botão de polígono usando o canto inferior direito desta caixa desta forma; saia.
   Se a string for "lado esquerdo", faça o botão de polígono usando o centro esquerdo desta caixa desta forma; saia.
-  Se a string for "lado superior", faça o botão de polígono usando o center-top desta caixa desta forma; saia.
+  Se a string for "lado superior", faça o botão de polígono usando o centro-top desta caixa desta forma; saia.
   Se a string for "lado direito", faça o botão de polígono usando o centro direito desta caixa desta forma; saia.
-  Se a string for "lado inferior", faça o botão de polígono usando o center-base desta caixa desta forma; saia.
+  Se a string for "lado inferior", faça o botão de polígono usando o centro-base desta caixa desta forma; saia.
 
 Etapas para que se faça um botão de polígono usando uma localização:
   Atribua a localização e a localização à caixa deste botão de polígono.
@@ -3188,11 +3188,11 @@ Etapas para que se mirror um forma:
   Produza o relatório de informações usando "Erro no processamento da rotina 'Etapas para que se mirror um forma:' A categoria '" junto com a categoria desta forma seguido de "' não existe".
 
 Etapas para que se mirror uma forma (múltiplas formas agrupadas):
-  Atribua o center desta caixa desta forma a um center localização.
+  Atribua o centro desta caixa desta forma a um centro localização.
   Comece. [a executar o código abaixo]
     Obtenha uma segunda forma desde as formas desta forma.
     Se a segunda forma for inexistente, pare.
-    Atribua a coordenada X deste center menos a coordenada X deste center desta caixa desta segunda forma ao número X desse par de números.
+    Atribua a coordenada X deste centro menos a coordenada X deste centro desta caixa desta segunda forma ao número X desse par de números.
     Multiplique o número X deste par de números por 2.
     Mova a segunda forma usando o par de números.
     Mirror a segunda forma.
@@ -3821,15 +3821,15 @@ Etapas para que se rotate uma forma (elipse):
 
 Etapas para que se rotate uma forma (múltiplas formas agrupadas):
   Rotate a caixa desta forma.
-  Atribua o center desta caixa desta forma a um center localização.
+  Atribua o centro desta caixa desta forma a um centro localização.
   Comece. [a executar o código abaixo]
     Obtenha uma segunda forma desde as formas desta forma.
     Se a segunda forma for inexistente, pare.
-    Atribua o center desta caixa desta segunda forma a uma segunda center localização.
-    Atribua a coordenada Y deste center menos a coordenada Y desta segunda center mais a coordenada X deste center ao número X desse par de números.
-    Subtraia a coordenada X desta segunda center desde o número X deste par de números.
-    Atribua a coordenada Y deste center mais a coordenada X desta segunda center menos a coordenada X deste center ao número Y deste par de números.
-    Subtraia a coordenada Y desta segunda center desde o número Y deste par de números.
+    Atribua o centro desta caixa desta segunda forma a uma segunda centro localização.
+    Atribua a coordenada Y deste centro menos a coordenada Y desta segunda centro mais a coordenada X deste centro ao número X desse par de números.
+    Subtraia a coordenada X desta segunda centro desde o número X deste par de números.
+    Atribua a coordenada Y deste centro mais a coordenada X desta segunda centro menos a coordenada X deste centro ao número Y deste par de números.
+    Subtraia a coordenada Y desta segunda centro desde o número Y deste par de números.
     Mova a segunda forma usando o par de números.
     Rotate a segunda forma.
   Recomece. [percorra novamente o código acima]
@@ -4016,7 +4016,7 @@ Etapas para que se role uma página para uma forma:
   Se a forma for inexistente, cancele.
   Atribua a localized visível caixa desta página a uma caixa.
   Se a caixa desta forma estiver tocando a caixa, cancele.
-  Obtenha um difference entre o center desta caixa e o center desta caixa desta forma.
+  Obtenha um difference entre o centro desta caixa e o centro desta caixa desta forma.
   Arredonde a difference para a malha desta página.
   Adicione a difference para a origem desta página.
 

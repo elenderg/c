@@ -411,7 +411,7 @@ Etapas para que se pinte uma string sob uma localização com uma cor e uma fonte 
   Output "ET".
   Destrua a fonte info.
 
-Etapas para que se pinte uma string sob uma localização com uma cor e um fonte:
+Etapas para que se pinte uma string sob uma localização com uma cor e uma fonte:
   Se a página detector deste pdf state estiver ativo, pinte a string sob a localização com a cor e a fonte (pdf style); saia.
   Defina o código da cor of o quadro atual usando a cor.
   Crie o número da fonte of o quadro atual usando a fonte.
@@ -772,7 +772,7 @@ Etapas para que se converta uma string e um actual fonte info e um original font
   Converta o subtexto para uma segunda pdf string.
   Posponha a segunda pdf string para o trecho.
 
-Etapas para que se converta um número para pdf em units usando um emsquare número e um fonte:
+Etapas para que se converta um número para pdf em units usando um emsquare número e uma fonte:
   Multiplique o número pelo emsquare / a adjusted altura desta fonte.
   Multiplique o número por 1000 / o emsquare.
 

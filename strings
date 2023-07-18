@@ -183,16 +183,16 @@ Etapas para que se pinte uma string:
     Se a string não estiver em branco, providencie espaçamento adequado entre caracteres.
   Recomece. [percorra novamente o código acima]
 
-Etapas para que se escreva uma string around um center localização sob um raio;
-Etapas para que se escreva uma string usando um center localização e um raio;
-Etapas para que se pinte uma string around um center localização sob um raio;
-Etapas para que se pinte uma string usando um center localização e um raio:
+Etapas para que se escreva uma string around um centro localização sob um raio;
+Etapas para que se escreva uma string usando um centro localização e um raio;
+Etapas para que se pinte uma string around um centro localização sob um raio;
+Etapas para que se pinte uma string usando um centro localização e um raio:
   Isole a string.
   Atribua 1 e a quantidade de caracteres desta string a uma fração.
   Comece. [a executar o código abaixo]
     Se a string estiver em branco, cancele.
     Obtenha um pedaço desde a string.
-    Start sob o center localização.
+    Start sob o centro localização.
     Mova o raio.
     Pinte o pedaço.
     Vire a fração.
@@ -308,16 +308,16 @@ Etapas para que se pinte uma string com uma cor no middle of uma caixa:
   Vire para cima.
   Pinte a string com a cor.
 
-Etapas para que se escreva uma string com uma cor um raio away desde um center localização;
-Etapas para que se escreva uma string com uma cor um raio around um center localização;
-\Etapas para que se escreva uma string com uma cor aproximadamente um raio desde um center localização;
-Etapas para que se escreva uma string com uma cor um raio desde um center localização;
-Etapas para que se pinte uma string com uma cor um raio away desde um center localização;
-Etapas para que se pinte uma string com uma cor um raio around um center localização;
-Etapas para que se pinte uma string com uma cor aproximadamente um raio desde um center localização;
-Etapas para que se pinte uma string com uma cor um raio desde um center localização:
+Etapas para que se escreva uma string com uma cor um raio away desde um centro localização;
+Etapas para que se escreva uma string com uma cor um raio around um centro localização;
+\Etapas para que se escreva uma string com uma cor aproximadamente um raio desde um centro localização;
+Etapas para que se escreva uma string com uma cor um raio desde um centro localização;
+Etapas para que se pinte uma string com uma cor um raio away desde um centro localização;
+Etapas para que se pinte uma string com uma cor um raio around um centro localização;
+Etapas para que se pinte uma string com uma cor aproximadamente um raio desde um centro localização;
+Etapas para que se pinte uma string com uma cor um raio desde um centro localização:
   Atribua a cor à cor deste contexto.
-  Pinte a string usando o center localização e o raio.
+  Pinte a string usando o centro localização e o raio.
 
 Etapas para que se escreva uma string com uma fonte e um size e uma cor e uma localização:
   Atribua o size à altura desta fonte.
@@ -327,13 +327,13 @@ Etapas para que se escreva uma string com uma fonte e um size e uma cor e uma lo
   Adicione a largura dividido por 2 para a coordenada X do canto inferior direito desta caixa.
   Subtraia o size dividido por 2 desde a coordenada Y do canto superior esquerdo desta caixa.
   Adicione o size dividido por 2 para a coordenada Y do canto inferior direito desta caixa.
-  Pinte a string na caixa com a cor e a fonte e "center".
+  Pinte a string na caixa com a cor e a fonte e "centralizado".
   Atualize a tela.
 
 Etapas para que se escreva uma string com uma cor uns twips para baixo desde o topo of uma caixa;
-Etapas para que se escreva uma string com uma cor uns twips para baixo desde o topo center of uma caixa;
+Etapas para que se escreva uma string com uma cor uns twips para baixo desde o topo centro of uma caixa;
 Etapas para que se pinte uma string com uma cor uns twips para baixo desde o topo of uma caixa;
-Etapas para que se pinte uma string com uma cor uns twips para baixo desde o topo center of uma caixa:
+Etapas para que se pinte uma string com uma cor uns twips para baixo desde o topo centro of uma caixa:
   Atribua a tamanho da letra deste contexto dividido por 4 a um tamanho do quadrado. \ was 4 ***
   \ caracteres são two squares wide mais one square of intercharacter spacing. no spacing sob o end.
   Atribua a quantidade de caracteres desta string times o tamanho do quadrado times 3 menos o tamanho do quadrado a uma largura.

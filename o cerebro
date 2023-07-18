@@ -587,12 +587,12 @@ Etapas para que se centralize uma caixa sob o base of uma segunda caixa:
   Atribua a coordenada Y do canto inferior direito desta caixa menos a altura à coordenada Y do canto superior esquerdo desta caixa.
 
 Etapas para que se centralize uma caixa em uma segunda caixa (horizontalmente):
-  Atribua a coordenada X deste center desta segunda caixa menos a coordenada X deste center desta caixa a um número.
+  Atribua a coordenada X deste centro desta segunda caixa menos a coordenada X deste centro desta caixa a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a caixa usando o número e 0.
 
 Etapas para que se centralize uma caixa em uma segunda caixa (verticalmente):
-  Atribua a coordenada Y deste center desta segunda caixa menos a coordenada Y deste center desta caixa a um número.
+  Atribua a coordenada Y deste centro desta segunda caixa menos a coordenada Y deste centro desta caixa a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a caixa usando 0 e o número.
 
@@ -606,58 +606,58 @@ Etapas para que se centralize uma elipse em uma caixa (verticalmente):
   Centralize a caixa desta elipse na caixa (verticalmente).
 
 Etapas para que se centralize uma linha reta em uma caixa (horizontalmente):
-  Atribua a coordenada X deste center desta caixa menos a coordenada X deste center desta linha reta a um número.
+  Atribua a coordenada X deste centro desta caixa menos a coordenada X deste centro desta linha reta a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a linha reta usando o número e 0.
 
 Etapas para que se centralize uma linha reta em uma caixa (verticalmente):
-  Atribua a coordenada Y deste center desta caixa menos a coordenada Y deste center desta linha reta a um número.
+  Atribua a coordenada Y deste centro desta caixa menos a coordenada Y deste centro desta linha reta a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a linha reta usando 0 e o número.
 
 Etapas para que se centralize uma imagem em uma caixa (horizontalmente):
   Se a imagem for inexistente, cancele.
-  Atribua a coordenada X deste center desta caixa menos a coordenada X deste center desta caixa desta imagem a um número.
+  Atribua a coordenada X deste centro desta caixa menos a coordenada X deste centro desta caixa desta imagem a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a imagem usando o número e 0.
 
 Etapas para que se centralize uma imagem em uma caixa (verticalmente):
   Se a imagem for inexistente, cancele.
-  Atribua a coordenada Y deste center desta caixa menos a coordenada Y deste center desta caixa desta imagem a um número.
+  Atribua a coordenada Y deste centro desta caixa menos a coordenada Y deste centro desta caixa desta imagem a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a imagem usando 0 e o número.
 
 Etapas para que se centralize um polígono em uma caixa (horizontalmente):
   Se o polígono for inexistente, cancele.
-  Atribua a coordenada X deste center desta caixa menos a coordenada X deste center desta caixa deste polígono a um número.
+  Atribua a coordenada X deste centro desta caixa menos a coordenada X deste centro desta caixa deste polígono a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova o polígono usando o número e 0.
 
 Etapas para que se centralize um polígono em uma caixa (verticalmente):
   Se o polígono for inexistente, cancele.
-  Atribua o y deste center desta caixa menos o y deste center desta caixa deste polígono a um número.
+  Atribua o y deste centro desta caixa menos o y deste centro desta caixa deste polígono a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova o polígono usando 0 e o número.
 
 Etapas para que se centralize uma localização em uma caixa (horizontalmente):
-  Atribua a coordenada X deste center desta caixa menos a coordenada X desta localização a um número.
+  Atribua a coordenada X deste centro desta caixa menos a coordenada X desta localização a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a localização usando o número e 0.
 
 Etapas para que se centralize uma localização em uma caixa (verticalmente):
-  Atribua o y deste center desta caixa menos a coordenada Y desta localização a um número.
+  Atribua o y deste centro desta caixa menos a coordenada Y desta localização a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a localização usando 0 e o número.
 
 Etapas para que se centralize uma caixa de texto em uma caixa (horizontalmente):
   Se a caixa de texto for inexistente, cancele.
-  Atribua a coordenada X deste center desta caixa menos a coordenada X deste center desta caixa desta caixa de texto a um número.
+  Atribua a coordenada X deste centro desta caixa menos a coordenada X deste centro desta caixa desta caixa de texto a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a caixa de texto usando o número e 0.
 
 Etapas para que se centralize uma caixa de texto em uma caixa (verticalmente):
   Se a caixa de texto for inexistente, cancele.
-  Atribua a coordenada Y deste center desta caixa menos a coordenada Y deste center desta caixa desta caixa de texto a um número.
+  Atribua a coordenada Y deste centro desta caixa menos a coordenada Y deste centro desta caixa desta caixa de texto a um número.
   Arredonde o número para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a caixa de texto usando 0 e o número.
 
@@ -1638,7 +1638,7 @@ Etapas para que se crie uma díade:
 Etapas para que se crie um evento:
   Aloque memória para o evento.
 
-Etapas para que se crie uma fonte info usando um fonte:
+Etapas para que se crie uma fonte info usando uma fonte:
   Crie a fonte info usando a fonte (basic data).
   Crie as fonte larguras desta fonte info usando a fonte.
 
@@ -1661,7 +1661,7 @@ Etapas para que se crie uma fonte info usando uma fonte e uma string:
   Crie a fonte info usando a fonte (basic data).
   Crie as fonte larguras desta fonte info usando a fonte e a string.
 
-Etapas para que se crie umas fonte larguras usando um fonte:
+Etapas para que se crie umas fonte larguras usando uma fonte:
   Aloque memória para a fonte larguras.
   Atribua a fonte à fonte destas fonte larguras.
   Atribua 256 à contagem destas fonte larguras.
@@ -1819,7 +1819,7 @@ Etapas para que se crie o hBrush of um canvas usando uma cor:
     O canvas [hDC] \Um identificador para o contexto do dispositivo.
     e O hBrush. [h] \Um identificador para o objeto a ser selecionado.
 
-Etapas para que se crie o número da fonte of um canvas usando um fonte:
+Etapas para que se crie o número da fonte of um canvas usando uma fonte:
   Converta a fonte para um número da fonte.
   Call "gdi32.dll" "SelectObject" com \ https://docs.microsoft.com/pt-br/windows/win32/api/wingdi/nf-wingdi-selectobject
   \A função SelectObject seleciona um objeto no contexto de dispositivo (DC) especificado. O novo objeto substitui o objeto anterior do mesmo tipo.
@@ -2271,7 +2271,7 @@ Etapas para que se crie uma caixa de texto:
   Aloque memória para a caixa de texto.
   Atribua a cor preta à cor do pincel desta caixa de texto.
   Atribua a fonte padrão ao fonte desta caixa de texto.
-  Atribua "alinhado à esquerda" ao alinhamento desta caixa de texto.
+  Atribua "à esquerda" ao alinhamento desta caixa de texto.
   Atribua 1/1 à scale desta caixa de texto.
   Garanta one linha de texto na caixa de texto.
   Redefina a origem of a caixa de texto.
@@ -3504,13 +3504,13 @@ Etapas para que se determine se uma localização está sobre uma linha reta:
   Isole a linha reta.
   Atribua 3 times a quantidade de twips/pixel a um número.
   Comece. [a executar o código abaixo]
-    Obtenha uma distance entre a localização e o center desta linha reta (chessboard).
+    Obtenha uma distance entre a localização e o centro desta linha reta (chessboard).
     Se a distance for menor do que ou igual ao número, diga sim.
     Obtenha a distance entre a localização inicial desta linha reta e a localização final desta linha reta (chessboard).
     Se a distance for menor do que ou igual ao quantidade de twips/pixel , diga não.
     Separe a linha reta à linha reta e uma segunda linha reta.
-    Obtenha a distance entre a localização e o center desta linha reta (chessboard).
-    Obtenha uma segunda distance entre a localização e o center desta segunda linha reta (chessboard).
+    Obtenha a distance entre a localização e o centro desta linha reta (chessboard).
+    Obtenha uma segunda distance entre a localização e o centro desta segunda linha reta (chessboard).
     Se a distance for maior do que a segunda distance, atribua a segunda linha reta ao linha reta.
   Recomece. [percorra novamente o código acima]
 
@@ -3917,11 +3917,13 @@ Etapas para que se determine se we're facing north:
 [Se as condições acima não puderem ser satisfeitas, então:] Diga não.
 
 Etapas para que se determine se we're no lado esquerdo of uma caixa;
+Etapas para que se determine se we're esquerda of uma caixa;
 Etapas para que se determine se we're lado esquerdo of uma caixa:
   Se a coordenada X deste contexto for menor do que a coordenada X do canto superior esquerdo desta caixa, diga sim.
 [Se as condições acima não puderem ser satisfeitas, então:] Diga não.
 
 Etapas para que se determine se we're no lado esquerdo ou no lado direito of uma caixa;
+Etapas para que se determine se we're esquerda ou direita of uma caixa;
 Etapas para que se determine se we're lado esquerdo ou lado direito of uma caixa:
   Se a coordenada X deste contexto for menor do que a coordenada X do canto superior esquerdo desta caixa, diga sim.
   Se a coordenada X deste contexto for maior do que a coordenada X do canto inferior direito desta caixa, diga sim.
@@ -4532,7 +4534,7 @@ Etapas para que se pinte uma linha reta com uma cor uns twips para uns outros tw
 
 Etapas para que se pinte um número em uma caixa com uma cor:
   Atribua o número a uma string.
-  Pinte a string na caixa com a cor e "center".
+  Pinte a string na caixa com a cor e "centro".
 
 Etapas para que se pinte only within uma caixa;
 Etapas para que se pinte only inside uma caixa;
@@ -4783,47 +4785,55 @@ Etapas para que se pinte uma estrela usando uma point contagem e um size:
     Se a contagem for o point contagem, pare.
   Recomece. [percorra novamente o código acima]
 
+Etapas para que se pinte uma string sob a esquerda of uma caixa;
 Etapas para que se pinte uma string sob o lado esquerdo of uma caixa:
   Pinte a string sob o lado esquerdo of a caixa com a cor preta e a fonte padrão.
 
+Etapas para que se pinte uma string sob a esquerda of uma caixa com uma cor;
 Etapas para que se pinte uma string sob o lado esquerdo of uma caixa com uma cor:
   Pinte a string sob o lado esquerdo of a caixa com a cor e a fonte padrão.
 
-Etapas para que se pinte uma string sob o lado esquerdo of uma caixa com uma cor e um fonte:
-  Pinte a string na caixa com a cor e a fonte e "alinhado à esquerda".
+Etapas para que se pinte uma string sob a esquerda of uma caixa com uma cor e uma fonte;
+Etapas para que se pinte uma string sob o lado esquerdo of uma caixa com uma cor e uma fonte:
+  Pinte a string na caixa com a cor e a fonte e "à esquerda".
 
-Etapas para que se pinte uma string sob o lado esquerdo of uma caixa com um fonte:
+Etapas para que se pinte uma string sob a esquerda of uma caixa com uma fonte;
+Etapas para que se pinte uma string sob o lado esquerdo of uma caixa com uma fonte:
   Pinte a string sob o lado esquerdo of a caixa com a cor preta e a fonte.
 
+Etapas para que se pinte uma string sob a direita of uma caixa;
 Etapas para que se pinte uma string sob o lado direito of uma caixa:
   Pinte a string sob o lado direito of a caixa com a cor preta e a fonte padrão.
 
+Etapas para que se pinte uma string sob a direita of uma caixa com uma cor;
 Etapas para que se pinte uma string sob o lado direito of uma caixa com uma cor:
   Pinte a string sob o lado direito of a caixa com a cor e a fonte padrão.
 
-Etapas para que se pinte uma string sob o lado direito of uma caixa com uma cor e um fonte:
-  Pinte a string na caixa com a cor e a fonte e "lado direito".
+Etapas para que se pinte uma string sob a direita of uma caixa com uma cor e uma fonte;
+Etapas para que se pinte uma string sob o lado direito of uma caixa com uma cor e uma fonte:
+  Pinte a string na caixa com a cor e a fonte e "à direita".
 
-Etapas para que se pinte uma string sob o lado direito of uma caixa com um fonte:
+Etapas para que se pinte uma string sob a direita of uma caixa com uma fonte;
+Etapas para que se pinte uma string sob o lado direito of uma caixa com uma fonte:
   Pinte a string sob o lado direito of a caixa com a cor preta e a fonte.
 
 Etapas para que se pinte uma string sob uma localização com uma cor:
   Pinte a string sob a localização com a cor e a fonte padrão.
 
 Etapas para que se pinte uma string em uma caixa:
-  Pinte a string na caixa com a cor preta e a fonte padrão e "alinhado à esquerda".
+  Pinte a string na caixa com a cor preta e a fonte padrão e "à esquerda".
 
 Etapas para que se pinte uma string em uma caixa over um número com uma cor e uma fonte e um alinhamento:
   Isole a caixa.
-  Se o alinhamento for "alinhado à esquerda", adicione o número para a coordenada X do canto superior esquerdo desta caixa.  
-  Se o alinhamento for "alinhado à direita", subtraia o número desde a coordenada X do canto inferior direito desta caixa.
+  Se o alinhamento for "à esquerda", adicione o número para a coordenada X do canto superior esquerdo desta caixa.  
+  Se o alinhamento for "à direita", subtraia o número desde a coordenada X do canto inferior direito desta caixa.
   Pinte a string na caixa com a cor e a fonte e o alinhamento.
 
 Etapas para que se pinte uma string em uma caixa com um alinhamento:
   Pinte a string na caixa com a cor preta e a fonte padrão e o alinhamento.
 
 Etapas para que se pinte uma string em uma caixa com uma cor:
-  Pinte a string na caixa com a cor e a fonte padrão e "alinhado à esquerda".
+  Pinte a string na caixa com a cor e a fonte padrão e "à esquerda".
 
 Etapas para que se pinte uma string em uma caixa com uma cor e um alinhamento:
   Pinte a string na caixa com a cor e a fonte padrão e o alinhamento.
@@ -4835,17 +4845,17 @@ Etapas para que se pinte uma string em uma caixa com uma cor e uma fonte e um al
 Etapas para que se pinte uma string em uma caixa com uma fonte e um alinhamento:
   Pinte a string na caixa com a cor preta e a fonte e o alinhamento.
 
-Etapas para que se pinte uma string no center of uma caixa:
-  Pinte a string no center of a caixa com a cor preta e a fonte padrão.
+Etapas para que se pinte uma string no centro of uma caixa:
+  Pinte a string no centro of a caixa com a cor preta e a fonte padrão.
 
-Etapas para que se pinte uma string no center of uma caixa com uma cor:
-  Pinte a string no center of a caixa com a cor e a fonte padrão.
+Etapas para que se pinte uma string no centro of uma caixa com uma cor:
+  Pinte a string no centro of a caixa com a cor e a fonte padrão.
 
-Etapas para que se pinte uma string no center of uma caixa com uma cor e um fonte:
-  Pinte a string na caixa com a cor e a fonte e "center".
+Etapas para que se pinte uma string no centro of uma caixa com uma cor e uma fonte:
+  Pinte a string na caixa com a cor e a fonte e "centro".
 
-Etapas para que se pinte uma string no center of uma caixa com um fonte:
-  Pinte a string no center of a caixa com a cor preta e a fonte.
+Etapas para que se pinte uma string no centro of uma caixa com uma fonte:
+  Pinte a string no centro of a caixa com a cor preta e a fonte.
 
 Etapas para que se pinte um terminal:
   Se o terminal for inexistente, cancele.
@@ -5654,7 +5664,7 @@ Etapas para que se flip um GpImage:
 
 Etapas para que se flip uma imagem:
   Se a imagem for inexistente, cancele.
-  Atribua a coordenada Y deste center desta caixa desta imagem menos a coordenada Y deste center desta caixa intacta desta imagem ao número Y desse par de números.
+  Atribua a coordenada Y deste centro desta caixa desta imagem menos a coordenada Y deste centro desta caixa intacta desta imagem ao número Y desse par de números.
   Multiplique o número Y deste par de números por 2.
   Mova a caixa intacta desta imagem usando o par de números.
   Flip o gpBitmap no imagem.
@@ -5874,9 +5884,9 @@ Etapas para que se obtenha um pedaço desde uma string (backwards):
   Atribua o conteúdo deste caractere final desta string ao pedaço.
   Remove o last pedaço desde a string.
 
-Etapas para que se obtenha um center localização usando uma localização e uma segunda localização:
+Etapas para que se obtenha um centro localização usando uma localização e uma segunda localização:
   Atribua a localização e a segunda localização a uma linha reta.
-  Atribua o center desta linha reta ao center.
+  Atribua o centro desta linha reta ao centro.
 
 Etapas para que se obtenha uma cor usando uma localização:
   Call "gdi32.dll" "GetPixel" com \ https://docs.microsoft.com/pt-br/windows/win32/api/wingdi/nf-wingdi-getpixel
@@ -6125,8 +6135,8 @@ Etapas para que se obtenha um offset par de números usando uma string e uma caix
   Destrua o número da fonte of o memory canvas.
 
 Etapas para que se obtenha um offset par de números usando uma string e uma caixa e uma fonte e um alinhamento (fast):
-  Se o alinhamento for "alinhado à esquerda", obtenha o número X deste offset par de números usando a string e a caixa (rápido - esquerda).
-  Se o alinhamento for "alinhado à direita", obtenha o número X deste offset par de números usando a string e a caixa (rápido - direita).
+  Se o alinhamento for "à esquerda", obtenha o número X deste offset par de números usando a string e a caixa (rápido - esquerda).
+  Se o alinhamento for "à direita", obtenha o número X deste offset par de números usando a string e a caixa (rápido - direita).
   Se o alinhamento for "centralizado", obtenha o número X deste offset par de números usando a string e a caixa (rápido - centralizado).
   Call "gdi32.dll" "GetTextMetricsA" com \https://docs.microsoft.com/pt-br/windows/win32/api/wingdi/nf-wingdi-gettextmetricsa
   \A função GetTextMetrics preenche o buffer especificado com as métricas para a fonte atualmente selecionada.
@@ -6427,12 +6437,12 @@ Etapas para que se obtenha uma largura usando uma string e um canvas:
     \Se a função for bem-sucedida, o valor de retorno será diferente de zero. Se a função falhar, o valor de retorno é zero.
   Atribua o número X deste par de números ao largura.
 
-Etapas para que se obtenha uma largura usando uma string e um canvas e um fonte:
+Etapas para que se obtenha uma largura usando uma string e um canvas e uma fonte:
   Crie o número da fonte of o canvas usando a fonte.
   Obtenha a largura usando a string e o canvas.
   Destrua o número da fonte of o canvas.
 
-Etapas para que se obtenha uma largura usando uma string e um fonte:
+Etapas para que se obtenha uma largura usando uma string e uma fonte:
   \ assumes memory canvas
   Obtenha a largura usando a string e o memory canvas e a fonte.
 
@@ -6837,7 +6847,7 @@ Etapas para que se execute um evento usando uma caixa de texto (clique duplo):
   Se a caixa de texto for inexistente, cancele.
   Desvencilhe-se de a caixa de texto.
   Mova o cursor de texto para a direita para algum tipo de non-alfanumérico pedaço na caixa de texto.
-  Mova o anchor para a esquerda para algum tipo de non-alfanumérico pedaço na caixa de texto.
+  Mova o anchor para o lado esquerdo para algum tipo de non-alfanumérico pedaço na caixa de texto.
 
 Etapas para que se execute um evento usando uma caixa de texto (seta esquerda):
   Se a caixa de texto for inexistente, cancele.
@@ -7125,7 +7135,7 @@ Etapas para que se faça uma elipse com uma localização e uma segunda localização
 
 Etapas para que se imagine uma figura using uma string e uma localização;
 Etapas para que se faça uma figura using uma string e uma localização;
-Etapas para que se crie uma figura using uma string e um center localização:
+Etapas para que se crie uma figura using uma string e um centro localização:
   Crie a figura.
   Posponha a figura para as figuras.
   Isole a string.
@@ -7140,8 +7150,8 @@ Etapas para que se crie uma figura using uma string e um center localização:
   Atribua o conteúdo deste caractere inicial deste subtexto ao pedaço.
   Atribua o pedaço menos o 'a' minúsculo ao x desta localização.
   Multiplique a localização por 24 px.
-  Adicione o x deste center localização menos 299 pixels para a coordenada X desta localização.
-  Adicione o y deste center localização menos 299 pixels para a coordenada Y desta localização.
+  Adicione o x deste centro localização menos 299 pixels para a coordenada X desta localização.
+  Adicione o y deste centro localização menos 299 pixels para a coordenada Y desta localização.
   Posponha a localização para a figura.
   Adicione 1 para o caractere inicial deste subtexto.
   Recomece. [percorra novamente o código acima]
@@ -7174,14 +7184,14 @@ Etapas para que se imagine uma linha reta no middle of uma caixa;
 Etapas para que se faça uma linha reta no middle of uma caixa;
 Etapas para que se imagine uma linha reta across o middle of uma caixa;
 Etapas para que se faça uma linha reta across o middle of uma caixa;
-Etapas para que se imagine uma linha reta no center of uma caixa;
-Etapas para que se faça uma linha reta no center of uma caixa;
-Etapas para que se imagine uma linha reta across o center of uma caixa;
-Etapas para que se faça uma linha reta across o center of uma caixa:
+Etapas para que se imagine uma linha reta no centro of uma caixa;
+Etapas para que se faça uma linha reta no centro of uma caixa;
+Etapas para que se imagine uma linha reta across o centro of uma caixa;
+Etapas para que se faça uma linha reta across o centro of uma caixa:
   Atribua a coordenada X do canto superior esquerdo desta caixa ao x desta localização inicial desta linha reta.
   Atribua a coordenada X do canto inferior direito desta caixa ao x desta localização final desta linha reta.
-  Atribua o y deste center desta caixa ao y desta localização inicial desta linha reta.
-  Atribua o y deste center desta caixa ao y desta localização final desta linha reta.
+  Atribua o y deste centro desta caixa ao y desta localização inicial desta linha reta.
+  Atribua o y deste centro desta caixa ao y desta localização final desta linha reta.
 
 Etapas para que se imagine uma linha reta uns twips para cima desde o base of uma caixa;
 Etapas para que se faça uma linha reta uns twips para cima desde o base of uma caixa:
@@ -7344,7 +7354,7 @@ Etapas para que se inicialize o Component Object Model:
 
 Etapas para que se inicialize um contexto:
   Aloque memória para o contexto.
-  Atribua o center desta tela à localização deste contexto.
+  Atribua o centro desta tela à localização deste contexto.
   Atribua 0 à orientação deste contexto.
   Atribua a cor verde à cor deste contexto.
   Atribua o tamanho de letra pequena à tamanho da letra deste contexto.
@@ -8252,12 +8262,12 @@ Etapas para que se mirror um GpImage:
 
 Etapas para que se mirror uma imagem:
   Se a imagem for inexistente, cancele.
-  Atribua a coordenada X deste center desta caixa desta imagem menos a coordenada X deste center desta caixa intacta desta imagem ao número X desse par de números.
+  Atribua a coordenada X deste centro desta caixa desta imagem menos a coordenada X deste centro desta caixa intacta desta imagem ao número X desse par de números.
   Multiplique o número X deste par de números por 2.
   Mova a caixa intacta desta imagem usando o par de números.
   Mirror o gpBitmap no imagem.
 
-Etapas para que se mova o anchor para a esquerda para algum tipo de non-alfanumérico pedaço em uma caixa de texto:
+Etapas para que se mova o anchor para o lado esquerdo para algum tipo de non-alfanumérico pedaço em uma caixa de texto:
   Se a caixa de texto for inexistente, cancele.
   Obtenha uma linha de texto usando o anchor número da linha desta caixa de texto e a caixa de texto.
   Comece. [a executar o código abaixo]
@@ -8629,21 +8639,21 @@ Um y-offset é um offset.
 
 Etapas para que se output o arco of uma elipse usando uma string: \\ interessante.
   Atribua 2761/10000 a uma fração. \ (sqrt(2) -1 ) * (2/3)   = 0,2761423749153967
-  Atribua o center desta elipse a um center localização.
+  Atribua o centro desta elipse a um centro localização.
   Atribua o x-extent desta elipse dividido por 2 a um half largura.
   Atribua o y-extent desta elipse dividido por 2 a um half altura.
   Atribua o x-extent desta elipse times a fração a um x-offset.
   Atribua o y-extent desta elipse times a fração a um y-offset.
   \ control point 1
-  Se a string for "canto superior esquerdo", atribua a coordenada X do canto superior esquerdo desta elipse e a coordenada Y deste center menos o y-offset a um first control localização.
-  Se a string for "canto superior direito", atribua a coordenada X deste center mais o x-offset e a coordenada Y do canto superior esquerdo desta elipse ao first control localização.
-  Se a string for "canto inferior direito", atribua a coordenada X do canto inferior direito desta elipse e a coordenada Y deste center mais o y-offset ao first control localização.
-  Se a string for "canto inferior esquerdo ", atribua a coordenada X deste center menos o x-offset e a coordenada Y do canto inferior direito desta elipse ao first control localização.
+  Se a string for "canto superior esquerdo", atribua a coordenada X do canto superior esquerdo desta elipse e a coordenada Y deste centro menos o y-offset a um first control localização.
+  Se a string for "canto superior direito", atribua a coordenada X deste centro mais o x-offset e a coordenada Y do canto superior esquerdo desta elipse ao first control localização.
+  Se a string for "canto inferior direito", atribua a coordenada X do canto inferior direito desta elipse e a coordenada Y deste centro mais o y-offset ao first control localização.
+  Se a string for "canto inferior esquerdo ", atribua a coordenada X deste centro menos o x-offset e a coordenada Y do canto inferior direito desta elipse ao first control localização.
   \ control point 2
-  Se a string for "canto superior esquerdo", atribua a coordenada X deste center menos o x-offset e a coordenada Y do canto superior esquerdo desta elipse a um second control localização.
-  Se a string for "canto superior direito", atribua a coordenada X do canto inferior direito desta elipse e a coordenada Y deste center menos o y-offset ao second control localização.
-  Se a string for "canto inferior direito", atribua a coordenada X deste center mais o x-offset e a coordenada Y do canto inferior direito desta elipse ao second control localização.
-  Se a string for "canto inferior esquerdo ", atribua a coordenada X do canto superior esquerdo desta elipse e a coordenada Y deste center mais o y-offset ao second control localização.
+  Se a string for "canto superior esquerdo", atribua a coordenada X deste centro menos o x-offset e a coordenada Y do canto superior esquerdo desta elipse a um second control localização.
+  Se a string for "canto superior direito", atribua a coordenada X do canto inferior direito desta elipse e a coordenada Y deste centro menos o y-offset ao second control localização.
+  Se a string for "canto inferior direito", atribua a coordenada X deste centro mais o x-offset e a coordenada Y do canto inferior direito desta elipse ao second control localização.
+  Se a string for "canto inferior esquerdo ", atribua a coordenada X do canto superior esquerdo desta elipse e a coordenada Y deste centro mais o y-offset ao second control localização.
   \ ending point
   Se a string for "canto superior esquerdo", atribua a coordenada X do canto superior esquerdo desta elipse mais o half largura e a coordenada Y do canto superior esquerdo desta elipse a um ending localização.
   Se a string for "canto superior direito", atribua a coordenada X do canto inferior direito desta elipse e a coordenada Y do canto superior esquerdo desta elipse mais o half altura ao ending localização.
@@ -8898,7 +8908,7 @@ Etapas para que se centralize uma imagem em uma caixa:
 Etapas para que se atribua uma imagem sobre uma localização;
 Etapas para que se centralize uma imagem sobre uma localização:
   Se a imagem for inexistente, cancele.
-  Obtenha um difference entre a localização e o center desta caixa desta imagem.
+  Obtenha um difference entre a localização e o centro desta caixa desta imagem.
   Arredonde a difference para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a imagem usando a difference.
 
@@ -9028,7 +9038,7 @@ Etapas para que se centralize uma caixa de texto em uma caixa:
 Etapas para que se atribua uma caixa de texto sobre uma localização;
 Etapas para que se centralize uma caixa de texto sobre uma localização:
   Se a caixa de texto for inexistente, cancele.
-  Obtenha um difference entre a localização e o center desta caixa desta caixa de texto.
+  Obtenha um difference entre a localização e o centro desta caixa desta caixa de texto.
   Arredonde a difference para o múltiplo imediato of a quantidade de twips/pixel .
   Mova a caixa de texto usando a difference.
 
@@ -9625,12 +9635,12 @@ Um deslocamento vertical é um número.
 Um deslocamento horizontal é um número.
 
 Etapas para que se rotate uma caixa:
-  Atribua o center desta caixa a um center localização.
+  Atribua o centro desta caixa a um centro localização.
   Atribua a caixa a uma segunda caixa.
-  Atribua a coordenada Y deste center menos a coordenada Y do canto superior esquerdo desta segunda caixa mais a coordenada X deste center à coordenada X do canto inferior direito desta caixa.
-  Atribua a coordenada X do canto superior esquerdo desta segunda caixa menos a coordenada X deste center mais a coordenada Y deste center à coordenada Y do canto superior esquerdo desta caixa.
-  Atribua a coordenada Y deste center menos a coordenada Y do canto inferior direito desta segunda caixa mais a coordenada X deste center à coordenada X do canto superior esquerdo desta caixa.
-  Atribua a coordenada X do canto inferior direito desta segunda caixa menos a coordenada X deste center mais a coordenada Y deste center à coordenada Y do canto inferior direito desta caixa.
+  Atribua a coordenada Y deste centro menos a coordenada Y do canto superior esquerdo desta segunda caixa mais a coordenada X deste centro à coordenada X do canto inferior direito desta caixa.
+  Atribua a coordenada X do canto superior esquerdo desta segunda caixa menos a coordenada X deste centro mais a coordenada Y deste centro à coordenada Y do canto superior esquerdo desta caixa.
+  Atribua a coordenada Y deste centro menos a coordenada Y do canto inferior direito desta segunda caixa mais a coordenada X deste centro à coordenada X do canto superior esquerdo desta caixa.
+  Atribua a coordenada X do canto inferior direito desta segunda caixa menos a coordenada X deste centro mais a coordenada Y deste centro à coordenada Y do canto inferior direito desta caixa.
 
 Etapas para que se rotate uma elipse:
   Rotate a caixa desta elipse.
@@ -9677,9 +9687,9 @@ Etapas para que se rotate um GpImage usando um ângulo:
     \7 - Uma rotação de 270 graus seguida por uma inversão horizontal (uma rotação de 90 graus seguida por uma inversão vertical)
 
 Etapas para que se rotate uma linha reta:
-  Atribua o center desta linha reta a um center localização.
-  Rotate a localização inicial desta linha reta around o center.
-  Rotate a localização final desta linha reta around o center.
+  Atribua o centro desta linha reta a um centro localização.
+  Rotate a localização inicial desta linha reta around o centro.
+  Rotate a localização final desta linha reta around o centro.
 
 Etapas para que se rotate uma imagem:
   Se a imagem for inexistente, cancele.
@@ -9688,28 +9698,28 @@ Etapas para que se rotate uma imagem:
   Normalize o ângulo de rotação desta imagem.
   Rotate a caixa desta imagem.
   Rotate a caixa intacta desta imagem.
-  Atribua o center desta caixa desta imagem a um center localização.
-  Atribua o center desta caixa intacta desta imagem a uma segunda center localização.
-  Atribua a coordenada Y deste center menos a coordenada Y desta segunda center mais a coordenada X deste center ao número X desse twip par de números.
-  Subtraia a coordenada X desta segunda center desde o número X deste twip par de números.
-  Atribua a coordenada Y deste center mais a coordenada X desta segunda center menos a coordenada X deste center ao número Y deste twip par de números.
-  Subtraia a coordenada Y desta segunda center desde o número Y deste twip par de números.
+  Atribua o centro desta caixa desta imagem a um centro localização.
+  Atribua o centro desta caixa intacta desta imagem a uma segunda centro localização.
+  Atribua a coordenada Y deste centro menos a coordenada Y desta segunda centro mais a coordenada X deste centro ao número X desse twip par de números.
+  Subtraia a coordenada X desta segunda centro desde o número X deste twip par de números.
+  Atribua a coordenada Y deste centro mais a coordenada X desta segunda centro menos a coordenada X deste centro ao número Y deste twip par de números.
+  Subtraia a coordenada Y desta segunda centro desde o número Y deste twip par de números.
   Mova a caixa intacta desta imagem usando o twip par de números.
   Rotate o gpBitmap desta imagem.
 
 Etapas para que se rotate um polígono:
   Se o polígono for inexistente, cancele.
-  Atribua o center deste polígono a um center localização.
+  Atribua o centro deste polígono a um centro localização.
   Comece. [a executar o código abaixo]
     Obtenha um vértice desde os vértices deste polígono.
     Se o vértice for inexistente, cancele.
-    Rotate a localização deste vértice around o center.
+    Rotate a localização deste vértice around o centro.
   Recomece. [percorra novamente o código acima]
 
-Etapas para que se rotate uma localização around um center localização:
+Etapas para que se rotate uma localização around um centro localização:
   Atribua a localização a uma segunda localização.
-  Atribua a coordenada Y deste center menos a coordenada Y desta segunda localização mais a coordenada X deste center à coordenada X desta localização.
-  Atribua a coordenada X desta segunda localização menos a coordenada X deste center mais a coordenada Y deste center à coordenada Y desta localização.
+  Atribua a coordenada Y deste centro menos a coordenada Y desta segunda localização mais a coordenada X deste centro à coordenada X desta localização.
+  Atribua a coordenada X desta segunda localização menos a coordenada X deste centro mais a coordenada Y deste centro à coordenada Y desta localização.
 
 Etapas para que se rotate uma caixa de texto:
   Se a caixa de texto for inexistente, cancele.
@@ -9987,7 +9997,7 @@ Etapas para que se role uma caixa de texto para o cursor de texto:
   Se a difference for 0, cancele.
   Role a caixa de texto usando a difference.
 
-Etapas para que se role uma caixa de texto para o cursor de texto e center it:
+Etapas para que se role uma caixa de texto para o cursor de texto e centralize-o:
   Se a caixa de texto for inexistente, cancele.
   Atribua a margem desta caixa de texto à coordenada X desta caixa de texto.
   Obtenha uma caixa pelo cursor de texto na caixa de texto.
@@ -10434,12 +10444,12 @@ Etapas para que se suavize um polígono:
   Comece. [a executar o código abaixo]
     Se o next deste esquerdo vértice for inexistente, pare.
     Atribua o next deste esquerdo vértice a um direito vértice.
-    Obtenha um center localização usando a localização deste esquerdo vértice e a localização deste direito vértice.
-    Insira o center ao polígono after o esquerdo vértice.
+    Obtenha um centro localização usando a localização deste esquerdo vértice e a localização deste direito vértice.
+    Insira o centro ao polígono after o esquerdo vértice.
     Atribua o next deste esquerdo vértice a um new vértice.
     Se o previous deste esquerdo vértice for inexistente, atribua o direito vértice ao esquerdo vértice; recomece.
-    Obtenha uma segunda center localização usando a localização deste previous deste esquerdo vértice e a localização deste new vértice.
-    Obtenha um difference entre a segunda center e a localização deste esquerdo vértice.
+    Obtenha uma segunda centro localização usando a localização deste previous deste esquerdo vértice e a localização deste new vértice.
+    Obtenha um difference entre a segunda centro e a localização deste esquerdo vértice.
     Divida a difference por 2.
     Adicione a difference para a localização deste esquerdo vértice.
     Atribua o direito vértice ao esquerdo vértice.
@@ -10509,9 +10519,9 @@ Etapas para que se separe um pedaço para uma cifra binária e uma segunda cifra b
 
 Etapas para que se separe uma linha reta para uma segunda linha reta e um terceiro linha reta:
   Isole a linha reta.
-  Atribua o center desta linha reta a um center localização.
-  Atribua a localização inicial desta linha reta e o center ao segunda linha reta.
-  Atribua o center e a localização final desta linha reta ao terceiro linha reta.
+  Atribua o centro desta linha reta a um centro localização.
+  Atribua a localização inicial desta linha reta e o centro ao segunda linha reta.
+  Atribua o centro e a localização final desta linha reta ao terceiro linha reta.
 
 Etapas para que se separe um número para um word e uma segunda word:
   Isole o número.
@@ -10657,143 +10667,143 @@ Etapas para que se start sob o lado esquerdo of um linha reta horizontal:
 
 Etapas para que se start sob o middle of o base of uma caixa;
 Etapas para que se start no middle of o base of uma caixa;
-Etapas para que se start sob o center of o base of uma caixa;
-Etapas para que se start no center of o base of uma caixa:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o base of uma caixa;
+Etapas para que se start no centro of o base of uma caixa:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto inferior direito desta caixa à coordenada Y desta localização deste contexto.
 
 Etapas para que se start sob o middle of o base of uma caixa facing east;
 Etapas para que se start no middle of o base of uma caixa facing east;
-Etapas para que se start sob o center of o base of uma caixa facing east;
-Etapas para que se start no center of o base of uma caixa facing east:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o base of uma caixa facing east;
+Etapas para que se start no centro of o base of uma caixa facing east:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto inferior direito desta caixa à coordenada Y desta localização deste contexto.
   Face east.
 
 Etapas para que se start sob o middle of o base of uma caixa facing north;
 Etapas para que se start no middle of o base of uma caixa facing north;
-Etapas para que se start sob o center of o base of uma caixa facing north;
-Etapas para que se start no center of o base of uma caixa facing north:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o base of uma caixa facing north;
+Etapas para que se start no centro of o base of uma caixa facing north:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto inferior direito desta caixa à coordenada Y desta localização deste contexto.
   Vire para cima.
 
 Etapas para que se start sob o middle of o base of uma caixa facing south;
 Etapas para que se start no middle of o base of uma caixa facing south;
-Etapas para que se start sob o center of o base of uma caixa facing south;
-Etapas para que se start no center of o base of uma caixa facing south:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o base of uma caixa facing south;
+Etapas para que se start no centro of o base of uma caixa facing south:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto inferior direito desta caixa à coordenada Y desta localização deste contexto.
   Face south.
 
 Etapas para que se start sob o middle of o base of uma caixa facing west;
 Etapas para que se start no middle of o base of uma caixa facing west;
-Etapas para que se start sob o center of o base of uma caixa facing west;
-Etapas para que se start no center of o base of uma caixa facing west:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o base of uma caixa facing west;
+Etapas para que se start no centro of o base of uma caixa facing west:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto inferior direito desta caixa à coordenada Y desta localização deste contexto.
   Face west.
 
 Etapas para que se start sob o middle of o lado esquerdo of uma caixa facing east;
 Etapas para que se start no middle of o lado esquerdo of uma caixa facing east;
-Etapas para que se start sob o center of o lado esquerdo of uma caixa facing east;
-Etapas para que se start no center of o lado esquerdo of uma caixa facing east:
+Etapas para que se start sob o centro of o lado esquerdo of uma caixa facing east;
+Etapas para que se start no centro of o lado esquerdo of uma caixa facing east:
   Atribua a coordenada X do canto superior esquerdo desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Face east.
 
 Etapas para que se start sob o middle of o lado esquerdo of uma caixa facing north;
 Etapas para que se start no middle of o lado esquerdo of uma caixa facing north;
-Etapas para que se start sob o center of o lado esquerdo of uma caixa facing north;
-Etapas para que se start no center of o lado esquerdo of uma caixa facing north:
+Etapas para que se start sob o centro of o lado esquerdo of uma caixa facing north;
+Etapas para que se start no centro of o lado esquerdo of uma caixa facing north:
   Atribua a coordenada X do canto superior esquerdo desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Vire para cima.
 
 Etapas para que se start sob o middle of o lado esquerdo of uma caixa facing south;
 Etapas para que se start no middle of o lado esquerdo of uma caixa facing south;
-Etapas para que se start sob o center of o lado esquerdo of uma caixa facing south;
-Etapas para que se start no center of o lado esquerdo of uma caixa facing south:
+Etapas para que se start sob o centro of o lado esquerdo of uma caixa facing south;
+Etapas para que se start no centro of o lado esquerdo of uma caixa facing south:
   Atribua a coordenada X do canto superior esquerdo desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Face south.
 
 Etapas para que se start sob o middle of o lado esquerdo of uma caixa facing west;
 Etapas para que se start no middle of o lado esquerdo of uma caixa facing west;
-Etapas para que se start sob o center of o lado esquerdo of uma caixa facing west;
-Etapas para que se start no center of o lado esquerdo of uma caixa facing west:
+Etapas para que se start sob o centro of o lado esquerdo of uma caixa facing west;
+Etapas para que se start no centro of o lado esquerdo of uma caixa facing west:
   Atribua a coordenada X do canto superior esquerdo desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Face west.
 
 Etapas para que se start sob o middle of o lado direito of uma caixa facing east;
 Etapas para que se start no middle of o lado direito of uma caixa facing east;
-Etapas para que se start sob o center of o lado direito of uma caixa facing east;
-Etapas para que se start no center of o lado direito of uma caixa facing east:
+Etapas para que se start sob o centro of o lado direito of uma caixa facing east;
+Etapas para que se start no centro of o lado direito of uma caixa facing east:
   Atribua a coordenada X do canto inferior direito desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Face east.
 
 Etapas para que se start sob o middle of o lado direito of uma caixa facing north;
 Etapas para que se start no middle of o lado direito of uma caixa facing north;
-Etapas para que se start sob o center of o lado direito of uma caixa facing north;
-Etapas para que se start no center of o lado direito of uma caixa facing north:
+Etapas para que se start sob o centro of o lado direito of uma caixa facing north;
+Etapas para que se start no centro of o lado direito of uma caixa facing north:
   Atribua a coordenada X do canto inferior direito desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Vire para cima.
 
 Etapas para que se start sob o middle of o lado direito of uma caixa facing south;
 Etapas para que se start no middle of o lado direito of uma caixa facing south;
-Etapas para que se start sob o center of o lado direito of uma caixa facing south;
-Etapas para que se start no center of o lado direito of uma caixa facing south:
+Etapas para que se start sob o centro of o lado direito of uma caixa facing south;
+Etapas para que se start no centro of o lado direito of uma caixa facing south:
   Atribua a coordenada X do canto inferior direito desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Face south.
 
 Etapas para que se start sob o middle of o lado direito of uma caixa facing west;
 Etapas para que se start no middle of o lado direito of uma caixa facing west;
-Etapas para que se start sob o center of o lado direito of uma caixa facing west;
-Etapas para que se start no center of o lado direito of uma caixa facing west:
+Etapas para que se start sob o centro of o lado direito of uma caixa facing west;
+Etapas para que se start no centro of o lado direito of uma caixa facing west:
   Atribua a coordenada X do canto inferior direito desta caixa à coordenada X desta localização deste contexto.
-  Atribua o y deste center desta caixa à coordenada Y desta localização deste contexto.
+  Atribua o y deste centro desta caixa à coordenada Y desta localização deste contexto.
   Face west.
 
 Etapas para que se start sob o middle of o topo of uma caixa;
 Etapas para que se start no middle of o topo of uma caixa;
-Etapas para que se start sob o center of o topo of uma caixa;
-Etapas para que se start no center of o topo of uma caixa:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o topo of uma caixa;
+Etapas para que se start no centro of o topo of uma caixa:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto superior esquerdo desta caixa à coordenada Y desta localização deste contexto.
 
 Etapas para que se start sob o middle of o topo of uma caixa facing east;
 Etapas para que se start no middle of o topo of uma caixa facing east;
-Etapas para que se start sob o center of o topo of uma caixa facing east;
-Etapas para que se start no center of o topo of uma caixa facing east:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o topo of uma caixa facing east;
+Etapas para que se start no centro of o topo of uma caixa facing east:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto superior esquerdo desta caixa à coordenada Y desta localização deste contexto.
   Face east.
 
 Etapas para que se start sob o middle of o topo of uma caixa facing north;
 Etapas para que se start no middle of o topo of uma caixa facing north;
-Etapas para que se start sob o center of o topo of uma caixa facing north;
-Etapas para que se start no center of o topo of uma caixa facing north:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o topo of uma caixa facing north;
+Etapas para que se start no centro of o topo of uma caixa facing north:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto superior esquerdo desta caixa à coordenada Y desta localização deste contexto.
   Vire para cima.
 
 Etapas para que se start sob o middle of o topo of uma caixa facing south;
 Etapas para que se start no middle of o topo of uma caixa facing south;
-Etapas para que se start sob o center of o topo of uma caixa facing south;
-Etapas para que se start no center of o topo of uma caixa facing south:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o topo of uma caixa facing south;
+Etapas para que se start no centro of o topo of uma caixa facing south:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto superior esquerdo desta caixa à coordenada Y desta localização deste contexto.
   Face south.
 
 Etapas para que se start sob o middle of o topo of uma caixa facing west;
 Etapas para que se start no middle of o topo of uma caixa facing west;
-Etapas para que se start sob o center of o topo of uma caixa facing west;
-Etapas para que se start no center of o topo of uma caixa facing west:
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+Etapas para que se start sob o centro of o topo of uma caixa facing west;
+Etapas para que se start no centro of o topo of uma caixa facing west:
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto superior esquerdo desta caixa à coordenada Y desta localização deste contexto.
   Face west.
 
@@ -10858,27 +10868,27 @@ Etapas para que se start no middle of uma caixa facing east;
 Etapas para que se start sob o middle of uma caixa facing east;
 Etapas para que se mova para o middle of uma caixa facing east;
 Etapas para que se mova para o middle of uma caixa e face east;
-Etapas para que se start no center of uma caixa facing east;
-Etapas para que se start sob o center of uma caixa facing east;
-Etapas para que se mova para o center of uma caixa facing east;
-Etapas para que se mova para o center of uma caixa e face east:
-  Atribua o center desta caixa à localização deste contexto.
+Etapas para que se start no centro of uma caixa facing east;
+Etapas para que se start sob o centro of uma caixa facing east;
+Etapas para que se mova para o centro of uma caixa facing east;
+Etapas para que se mova para o centro of uma caixa e face east:
+  Atribua o centro desta caixa à localização deste contexto.
   Face east.
 
 Etapas para que se start no middle of uma caixa facing north;
 Etapas para que se start sob o middle of uma caixa facing north;
 Etapas para que se mova para o middle of uma caixa facing north;
 Etapas para que se mova para o middle of uma caixa e face north;
-Etapas para que se start no center of uma caixa facing north;
-Etapas para que se start sob o center of uma caixa facing north;
-Etapas para que se mova para o center of uma caixa facing north;
-Etapas para que se mova para o center of uma caixa e face north:
-  Atribua o center desta caixa à localização deste contexto.
+Etapas para que se start no centro of uma caixa facing north;
+Etapas para que se start sob o centro of uma caixa facing north;
+Etapas para que se mova para o centro of uma caixa facing north;
+Etapas para que se mova para o centro of uma caixa e face north:
+  Atribua o centro desta caixa à localização deste contexto.
   Vire para cima.
 
 Etapas para que se start no middle of uma caixa facing north menos uns points;
-Etapas para que se start no center of uma caixa facing north menos uns points:
-  Atribua o center desta caixa à localização deste contexto.
+Etapas para que se start no centro of uma caixa facing north menos uns points:
+  Atribua o centro desta caixa à localização deste contexto.
   Vire para cima.
   Vire para a esquerda o points.
 
@@ -10886,22 +10896,22 @@ Etapas para que se start no middle of uma caixa facing south;
 Etapas para que se start sob o middle of uma caixa facing south;
 Etapas para que se mova para o middle of uma caixa facing south;
 Etapas para que se mova para o middle of uma caixa e face south;
-Etapas para que se start no center of uma caixa facing south;
-Etapas para que se start sob o center of uma caixa facing south;
-Etapas para que se mova para o center of uma caixa facing south;
-Etapas para que se mova para o center of uma caixa e face south:
-  Atribua o center desta caixa à localização deste contexto.
+Etapas para que se start no centro of uma caixa facing south;
+Etapas para que se start sob o centro of uma caixa facing south;
+Etapas para que se mova para o centro of uma caixa facing south;
+Etapas para que se mova para o centro of uma caixa e face south:
+  Atribua o centro desta caixa à localização deste contexto.
   Face south.
 
 Etapas para que se start no middle of uma caixa facing west;
 Etapas para que se start sob o middle of uma caixa facing west;
 Etapas para que se mova para o middle of uma caixa facing west;
 Etapas para que se mova para o middle of uma caixa e face west;
-Etapas para que se start no center of uma caixa facing west;
-Etapas para que se start sob o center of uma caixa facing west;
-Etapas para que se mova para o center of uma caixa facing west;
-Etapas para que se mova para o center of uma caixa e face west:
-  Atribua o center desta caixa à localização deste contexto.
+Etapas para que se start no centro of uma caixa facing west;
+Etapas para que se start sob o centro of uma caixa facing west;
+Etapas para que se mova para o centro of uma caixa facing west;
+Etapas para que se mova para o centro of uma caixa e face west:
+  Atribua o centro desta caixa à localização deste contexto.
   Face west.
 
 Etapas para que se start um process usando um endereço completo:
@@ -11037,7 +11047,7 @@ Etapas para que se start um temporizador:
 
 Etapas para que se start uns twips acima of o middle of o base of uma caixa:
   \ incomplete abra of these
-  Atribua a coordenada X deste center desta caixa à coordenada X desta localização deste contexto.
+  Atribua a coordenada X deste centro desta caixa à coordenada X desta localização deste contexto.
   Atribua a coordenada Y do canto inferior direito desta caixa menos os twips à coordenada Y desta localização deste contexto.
 
 Etapas para que se start uns twips para baixo desde uma localização;
@@ -11045,8 +11055,8 @@ Etapas para que se start uns twips debaixo of uma localização:
   Atribua a coordenada X desta localização ao x deste contexto.
   Atribua a coordenada Y desta localização mais os twips ao y deste contexto.
 
-Etapas para que se start uns twips desde o center of uma caixa:
-  Atribua o center desta caixa à localização deste contexto.
+Etapas para que se start uns twips desde o centro of uma caixa:
+  Atribua o centro desta caixa à localização deste contexto.
   Mova os twips.
 
 Etapas para que se start uns twips para o lado esquerdo e uns outros twips para baixo desde uma localização;

@@ -25,7 +25,7 @@ Etapas para que se adicione um nome e um conteúdo do texto para um menu:
   Atribua o nome ao nome deste command.
   Atribua o conteúdo do texto ao conteúdo do texto deste command.
   Atribua a cor do ambiente de trabalho à cor deste command. \ aqui muda a cor dos botões - eram brancos
-  Atribua "alinhado à esquerda" ao alinhamento deste command.
+  Atribua "à esquerda" ao alinhamento deste command.
 
 Etapas para que se adicione um nome e um conteúdo do texto para um submenu:
   Adicione o nome e "" e o conteúdo do texto para o submenu.
@@ -39,7 +39,7 @@ Etapas para que se adicione um nome e um atalho de tecla e um conteúdo do texto 
   Atribua o atalho de tecla ao atalho de tecla deste command.
   Atribua o conteúdo do texto ao conteúdo do texto deste command.
   Atribua a cor do ambiente de trabalho à cor deste command. \ aqui muda a cor dos submenus - eram brancos
-  Atribua "alinhado à esquerda" ao alinhamento deste command.
+  Atribua "à esquerda" ao alinhamento deste command.
 
 Etapas para que se adicione potinhos de tinta para um submenu usando um conteúdo do texto:
   Se o submenu for inexistente, cancele.
@@ -229,7 +229,7 @@ Etapas para que se crie um command: \ aqui cria os menus
   Atribua a cor transparente à cor deste command. \ 
   Atribua a fonte padrão à fonte deste command.
   Atribua 0 pixels ao raio desta caixa arredondada deste command. \ muda o raio dos botões
-  Atribua "alinhado à esquerda" ao alinhamento deste command.
+  Atribua "à esquerda" ao alinhamento deste command.
 
 Etapas para que se crie o dialog:
   Aloque memória para o dialog.
@@ -242,11 +242,11 @@ Etapas para que se crie um menu:
     Se o pedaço for maior do que o Z maiúsculo, pare.
     Atribua o pedaço a uma string.
     Adicione a string e a string ao menu.
-    Atribua "center" ao alinhamento deste last command destes commands deste menu.
+    Atribua "centro" ao alinhamento deste last command destes commands deste menu.
     Adicione 1 para o pedaço.
   Recomece. [percorra novamente o código acima]
   Adicione "*" e "*" para o menu. \ special menu
-  Atribua "center" ao alinhamento deste last command destes commands deste menu. \ special menu
+  Atribua "centro" ao alinhamento deste last command destes commands deste menu. \ special menu
   Atribua o canto superior esquerdo deste display deste painel superior direito a uma localização. \ special menu
   \ ajuste o menu usando a localização e 26 times a largura do potinho de tinta. \ no special menu
   Ajuste o menu usando a localização e 27 times a largura do potinho de tinta. \ special menu
@@ -400,7 +400,7 @@ Etapas para que se pinte um botão: \específico para os botões sim/não, cancelar,
   Exponha tudo.
   Pinte a caixa arredondada deste botão com a cor branca [borda] e a cor de realce [preenchimento].
   Cubra externamente a caixa arredondada deste botão.
-  Pinte o nome deste botão na caixa arredondada deste botão usando a cor branca [cor da fonte do botão realçado] e a fonte padrão e "center".
+  Pinte o nome deste botão na caixa arredondada deste botão usando a cor branca [cor da fonte do botão realçado] e a fonte padrão e "centro".
 
 Etapas para que se pinte uns botões:
   Obtenha um botão desde o botões.
@@ -528,7 +528,7 @@ Etapas para que se pinte o dialog:
   Pinte a linha reta do lado direito desta caixa arredondada deste dialog com a cor branca.
   Pinte a linha de baixo desta caixa arredondada deste dialog com a cor branca.
   Cubra externamente a caixa arredondada deste dialog.
-  Pinte o texto de aviso deste dialog na caixa de alerta deste dialog com a cor do pincel deste dialog e a fonte padrão e "alinhado à esquerda".
+  Pinte o texto de aviso deste dialog na caixa de alerta deste dialog com a cor do pincel deste dialog e a fonte padrão e "à esquerda".
   Pinte a caixa de texto deste dialog (editing).
   Pinte os botões deste dialog.
 
@@ -555,7 +555,7 @@ Etapas para que se pinte o painel de informações:
   Atribua a caixa arredondada deste painel de informações a uma caixa.
   Ajuste a caixa usando 12 pixels e 0 pixels e -12 pixels e 0 pixels.
   Cubra externamente a caixa.
-  Pinte a string deste painel de informações na caixa com a cor preta e a fonte padrão e "alinhado à direita".
+  Pinte a string deste painel de informações na caixa com a cor preta e a fonte padrão e "à direita".
 
 Etapas para que se pinte o alternador: \ os alternadores são as "bandeirinhas" de baixo
   Cubra somente fora de a caixa deste alternador.
@@ -577,8 +577,8 @@ Etapas para que se pinte uma aba:
   Pinte a linha de baixo desta caixa desta aba atual com a cor cinza.
   Se o previous desta aba não for inexistente, pinte o linha reta do lado esquerdo desta caixa desta aba com a cor cinza.
   Se a aba não for a aba atual, pinte o linha de cima desta caixa desta aba com a cor branca.
-  Se a aba for a aba atual, pinte o nome desta aba no center of a caixa desta aba com a cor branca e a fonte padrão.
-  Se a aba não for a aba atual, pinte o nome desta aba no center of a caixa desta aba com a cor preta e a fonte padrão.
+  Se a aba for a aba atual, pinte o nome desta aba no centro of a caixa desta aba com a cor branca e a fonte padrão.
+  Se a aba não for a aba atual, pinte o nome desta aba no centro of a caixa desta aba com a cor preta e a fonte padrão.
 
 Etapas para que se pinte umas abas:
   Obtenha uma aba desde as abas.
@@ -817,8 +817,8 @@ Etapas para que se execute um command:
   Mostre o ambiente de trabalho.
   Se o conteúdo do texto deste command for "Enviar pra frente", envie para frente; saia.
   Se o conteúdo do texto deste command for "centralizar", mude alinhamento usando "centralizado"; saia.
-  Se o conteúdo do texto deste command for "alinhar à esquerda", mude alinhamento usando "alinhado à esquerda"; saia.
-  Se o conteúdo do texto deste command for "alinhar à direita", mude alinhamento usando "alinhado à direita"; saia.
+  Se o conteúdo do texto deste command for "alinhar à esquerda", mude alinhamento usando "à esquerda"; saia.
+  Se o conteúdo do texto deste command for "alinhar à direita", mude alinhamento usando "à direita"; saia.
   Se o conteúdo do texto deste command for "execute border", execute border usando a cor deste command; saia.
   Se o conteúdo do texto deste command for "execute border e preencha", execute border e preencha usando a cor deste command; saia. \ special menu
   Se o conteúdo do texto deste command for "execute preencha", execute preencha usando a cor deste command; saia.
@@ -941,8 +941,8 @@ Etapas para que se execute um command (a):
   Se o modo do programa desta aba atual for "explorador de arquivos", adicione "Abrir como texto" e "execute abra como caixa de texto" para o submenu.
   Se o modo do programa desta aba atual for "caderno", adicione "Agrupar os itens selecionados" e "G" e "execute group" para o submenu.
   \Adicione "Ajuda" e "F1" e "mostre versão" para o submenu.
-  Se o modo do programa desta aba atual for "caderno", adicione "Alinhar à Direita" e "mude alinhamento usando alinhado à direita" para o submenu.
-  Se o modo do programa desta aba atual for "caderno", adicione "Alinhar à Esquerda" e "mude alinhamento usando alinhado à esquerda" para o submenu.
+  Se o modo do programa desta aba atual for "caderno", adicione "Alinhar à Direita" e "mude alinhamento usando à direita" para o submenu.
+  Se o modo do programa desta aba atual for "caderno", adicione "Alinhar à Esquerda" e "mude alinhamento usando à esquerda" para o submenu.
   Se o modo do programa desta aba atual for "caderno", adicione "Centralizar" e "mude alinhamento usando centralizado" para o submenu.
   Se o modo do programa desta aba atual for "caderno", adicione "Alterar Cor da Canetinha..." e "pincel..." para o submenu.
   Se o modo do programa desta aba atual for "caderno", adicione "Alterar Cor do Pincel..." e "pincel..." para o submenu.
@@ -955,8 +955,8 @@ Etapas para que se execute um command (a):
 
 Etapas para que se execute um command (alinhamento...):
   Crie um submenu.
-  Adicione "Alinhar à Direita" e "mude alinhamento usando alinhado à direita" para o submenu.
-  Adicione "Alinhar à Esquerda" e "mude alinhamento usando alinhado à esquerda" para o submenu.
+  Adicione "Alinhar à Direita" e "mude alinhamento usando à direita" para o submenu.
+  Adicione "Alinhar à Esquerda" e "mude alinhamento usando à esquerda" para o submenu.
   Adicione "Centralizar" e "mude alinhamento usando centralizado" para o submenu.
   Execute o command usando o submenu.
 
@@ -978,7 +978,7 @@ Etapas para que se execute um command (c):
   Se o modo do programa desta aba atual for "caderno", adicione "Cor da Canetinha..." e "pincel..." para o submenu.
   Se o modo do programa desta aba atual for "caderno", adicione "Cor do Pincel..." e "pincel..." para o submenu.
   Se o modo do programa desta aba atual for "caderno", adicione "Cor do Texto..." e "pincel..." para o submenu.
-  Adicione "Centralizar" e "mude alinhamento usando center" para o submenu.
+  Adicione "Centralizar" e "mude alinhamento usando centro" para o submenu.
   Adicione "Colar" e "V" e "execute paste" para o submenu.
   Se o modo do programa desta aba atual for "editor", adicione "Classificar..." e "classifique ..." para o submenu.
   Se o modo do programa desta aba atual for "explorador de arquivos", adicione "Classificar.." e "classifique ..." para o submenu.
@@ -1348,7 +1348,7 @@ Etapas para que se execute compile ou liste ou run erro:
     Se o endereço completo do arquivo de erro deste compilador não for o endereço completo desta lista desta aba, recomece.
     Se o source desta lista desta aba for inexistente, mostre erro a mensagem de erro deste compilador; saia.
   Selecione o número da linha de erro deste compilador usando a caixa de texto deste source desta lista desta aba.
-  Role a caixa de texto deste source desta lista desta aba para o cursor de texto e center it.
+  Role a caixa de texto deste source desta lista desta aba para o cursor de texto e centralize-o.
   Alterne para a aba.
   Mostre o ambiente de trabalho.
   Mostre erro a mensagem de erro deste compilador.
